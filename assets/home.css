@@ -1,0 +1,25 @@
+.port_section{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.more_gap{
+      padding-top: 40px;
+}
+.more_gap_2{
+      padding-top: 50px;
+}
+.secondary-font{
+  font-size: 71px !important;
+}
+@media only screen and (max-width: 768px) {
+  .secondary-font{
+    font-size: 71px !important;
+    line-height: 60px !important;
+  }
+.res_img{
+  padding-top: 20px;
+}
+
+}
