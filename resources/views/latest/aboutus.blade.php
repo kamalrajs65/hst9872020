@@ -14,14 +14,14 @@
                         </div>
                         <div class="col-lg-5 col-12 mt_md--40 mt_sm--40">
                             <div class="video-content move-up wow animate" style="visibility: visible; opacity: 0;">
-                                <h3 class="heading heading-h3 line-height-1-42">Effective solution <br> for every
-                                    businesses</h3>
+                                <!-- <h3 class="heading heading-h3 line-height-1-42">Effective solution <br> for every
+                                    businesses</h3> -->
                                 <div class="bkseparator--25"></div>
                                 <p class="bk_pra">Brook presents your services with flexible, convenient and
                                     multipurpose layouts. You can select your favorite layouts &amp; elements for
                                     particular projects with unlimited customization possibilities.</p>
                                 <div class="bkseparator--40"></div>
-                                <a class="moredetails-btn yellow-color-2" href="#"><span>More details</span> <i class="fa fa-arrow-right"></i></a>
+                                <!-- <a class="moredetails-btn yellow-color-2" href="#"><span>More details</span> <i class="fa fa-arrow-right"></i></a> -->
                             </div>
                         </div>
                     </div>

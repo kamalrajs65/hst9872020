@@ -18,7 +18,7 @@
 
 Route::get('/','Frontcontroller@index');
 Route::get('about-us','Frontcontroller@about');
-Route::get('our-team','Frontcontroller@team');
+Route::get('our-team','Frontcontroller@ourteam');
 Route::get('process','Frontcontroller@process');
 Route::get('portfolio','Frontcontroller@portfolio');
 Route::get('quote','Frontcontroller@quote');
