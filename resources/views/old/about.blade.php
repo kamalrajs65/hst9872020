@@ -251,7 +251,7 @@
                                            </div>
                                        </div>
                                    </div>
-                                
+
                                    <div class="team team__style--2 move-up wow">
                                        <div class="thumb">
                                            <img src="{{ url('assets/img/about/team/nivetha_2.jpg')}}" alt="team Images">

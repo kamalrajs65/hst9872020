@@ -1,7 +1,3 @@
-
-/*===================================
-    Default Styles
-====================================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,900|Permanent+Marker|Playfair+Display:400,400i,700,700i,900,900i|Montserrat:300,300i,400,400i,500,500i,600,700,700i,800|Open+Sans:400|Roboto:400,400i,500,500i,700,700i,900|Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Spectral:600i&amp;display=swap");
 .color-dark {
@@ -342,7 +338,7 @@ body {
   line-height: 24px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Poppins", sans-serif;
+
   color: #333333;
   font-weight: 400; }
 
@@ -390,7 +386,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "louis_george_caferegular";
+
   line-height: 1.3;
   color: #222222; }
 
@@ -777,7 +773,7 @@ Animation Css
   color: #FF5EE1; }
 
 .font-reenie {
-  font-family: 'Reenie Beanie', cursive; }
+  }
 
 .color-light {
   color: #999999; }
@@ -852,22 +848,22 @@ Animation Css
   color: #AC61EE; }
 
 .secondary-font {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 .primary-font {
-  font-family: "Poppins", sans-serif; }
+   }
 
 .heading-font {
-  font-family: "louis_george_caferegular"; }
+   }
 
 .playfair-font {
-  font-family: "Playfair Display", serif; }
+   }
 
 .spectral-font {
   font-family: "Spectral", serif; }
 
 .roboto-font {
-  font-family: "Roboto", sans-serif; }
+}
 
 .CerebriSans-font {
   font-family: "CerebriSans";
@@ -966,7 +962,7 @@ Animation Css
   background: #CC327B; }
 
 .bg-as-text {
-  background-image: url(img/icons/text.png);
+  background-image: url(img/about/about_bgtext.png);
   background-repeat: no-repeat;
   background-position: right center; }
   @media only screen and (max-width: 767px) {
@@ -6977,10 +6973,10 @@ Padding Top Bottom
 
 /* Font specialized */
 .body-font {
-  font-family: "Poppins", sans-serif; }
+   }
 
 .heading-font {
-  font-family: "louis_george_caferegular"; }
+   }
 
 /* Height and width */
 .fullscreen {
@@ -7581,7 +7577,7 @@ button.bk-btn {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0em;
-  font-family: "Poppins", sans-serif; }
+   }
   a.bk-btn.theme-btn,
   button.bk-btn.theme-btn {
     background-color: #0038E3; }
@@ -7607,7 +7603,7 @@ button.brook-btn {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
   font-weight: 600;
   letter-spacing: 0em;
-  font-family: "Poppins", sans-serif;
+
   display: inline-block;
   text-align: center;
   white-space: nowrap;
@@ -7834,7 +7830,7 @@ a.moredetails-btn {
   color: #222222; }
 
 .view-more-btn.headingfont a span {
-  font-family: "louis_george_caferegular"; }
+   }
 
 .view-more-btn.font-18 a {
   font-size: 18px; }
@@ -7865,7 +7861,7 @@ a.moredetails-btn {
       margin-left: 14px;
       color: #FCB72B;
       font-size: 14px;
-      font-family: "Poppins", sans-serif; }
+       }
       .view-more-btn a span.btn-arrow::before {
         content: "";
         position: absolute;
@@ -8124,7 +8120,7 @@ a.moredetails-btn {
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 1.43;
-  font-family: "Poppins", sans-serif;
+
   margin-bottom: 39px; }
   @media only screen and (max-width: 767px) {
     .section-title h3 {
@@ -8162,7 +8158,7 @@ a.moredetails-btn {
   line-height: 1.32;
   font-weight: 700;
   color: #222222;
-  font-family: "louis_george_caferegular"; }
+   }
 
 .section-title.normal-text h2 {
   font-weight: 400; }
@@ -8399,7 +8395,7 @@ Creative Agency Section Title
     font-weight: 600;
     font-size: 14px;
     color: #fff;
-    font-family: "Poppins", sans-serif;
+
     white-space: nowrap;
     line-height: 1.2; }
     .section-title--between .section-btn a.button-text i {
@@ -8493,7 +8489,7 @@ Creative Agency Section Title
     line-height: 1.38;
     margin-bottom: 18px;
     color: #222222;
-    font-family: "Poppins", sans-serif;
+
     font-weight: 600; }
   .service.service--1 .content p {
     color: #333;
@@ -8577,7 +8573,7 @@ Creative Agency Section Title
     font-weight: 600;
     letter-spacing: 0em;
     line-height: 1.23;
-    font-family: "Poppins", sans-serif; }
+     }
     .service.service--3 .content h3 a {
       color: #222222;
       -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -8589,7 +8585,7 @@ Creative Agency Section Title
     letter-spacing: 0em;
     line-height: 1.32;
     font-size: 16px;
-    font-family: "louis_george_caferegular";
+
     color: #333333; }
 
 .service.service--3:hover .thumb a img {
@@ -8913,7 +8909,7 @@ Counterup Area
   line-height: 1.43;
   margin-bottom: 0;
   word-wrap: break-word;
-  font-family: "Poppins", sans-serif; }
+   }
 
 .number-speaks .content h2 {
   font-size: 48px;
@@ -8940,7 +8936,7 @@ Counterup Area
     font-size: 70px;
     font-weight: 700;
     line-height: .9;
-    font-family: "louis_george_caferegular";
+
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.33333%;
     -ms-flex: 0 0 33.33333%;
@@ -8959,11 +8955,11 @@ Counterup Area
       line-height: 1.39;
       margin-bottom: 0;
       color: #222222;
-      font-family: "Poppins", sans-serif;
+
       font-weight: 600; }
     .number-wrap .content p {
       margin-top: 20px;
-      font-family: "louis_george_caferegular";
+
       line-height: 1.32;
       font-size: 16px;
       margin-bottom: 0;
@@ -9025,7 +9021,7 @@ Counterup Area
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 1.43;
-  font-family: "Poppins", sans-serif; }
+   }
 
 .team-heading .heading-right button {
   padding: 0;
@@ -9034,7 +9030,7 @@ Counterup Area
   font-weight: 600;
   font-size: 14px;
   color: #222;
-  font-family: "Poppins", sans-serif; }
+   }
   .team-heading .heading-right button i {
     padding-left: 10px;
     color: #0038E3; }
@@ -9200,12 +9196,12 @@ Counterup Area
     margin-bottom: 4px;
     color: #222222;
     font-weight: 600;
-    font-family: "Poppins", sans-serif; }
+     }
   .team.team_style--1 .info span {
     letter-spacing: 0em;
     line-height: 1.32;
     font-size: 16px;
-    font-family: "louis_george_caferegular";
+
     color: #333; }
   .team.team_style--1:hover .image-wrap .thumb .overlay {
     opacity: 1;
@@ -9313,7 +9309,7 @@ Counterup Area
       line-height: 1.388;
       margin-bottom: 6px;
       color: #fff;
-      font-family: "Poppins", sans-serif; }
+       }
     .team.team__style--2 .thumb .team-info .info span {
       color: rgba(255, 255, 255, 0.5);
       text-align: center;
@@ -9391,7 +9387,7 @@ Counterup Area
   font-size: 18px;
   line-height: 1.388;
   margin-bottom: 6px;
-  font-family: "Poppins", sans-serif; }
+   }
 
 .team.team__style--3 .team-info .info span {
   font-weight: 500;
@@ -9449,7 +9445,7 @@ Counterup Area
     line-height: 1.4;
     margin-bottom: 2px;
     color: #222222;
-    font-family: "Poppins", sans-serif; }
+     }
   .team.team_style--4 .inner .content-body .position {
     font-size: 14px;
     color: #333; }
@@ -9801,7 +9797,7 @@ Blog Default Style
       line-height: 1.56;
       margin-bottom: 0;
       font-weight: 600;
-      font-family: "Poppins", sans-serif;
+
       margin: 0 0 18px; }
       .blog .blog-content .content h3.the-title a {
         color: #fff; }
@@ -9834,7 +9830,7 @@ Blog Default Style
         font-size: 18px;
         line-height: 1.38;
         margin-bottom: 27px;
-        font-family: "Montserrat", sans-serif; }
+         }
         .blog.blog-style--2 .blog-content .content h3.the-title a {
           color: #fff;
           -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -9939,7 +9935,7 @@ Blog Default Style
     line-height: 1.375;
     margin-bottom: 0;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+
     margin: 0 0 18px; }
     .blog-style--1 .blog-content .content h3.the-title a {
       color: #fff; }
@@ -9948,7 +9944,7 @@ Blog Default Style
     line-height: 1.12;
     margin-bottom: 0;
     font-weight: 600;
-    font-family: "Poppins", sans-serif; }
+     }
     .blog-style--1 .blog-content .content h6.post-quote-by a {
       color: #fff; }
   .blog-style--1:hover .thumb a img {
@@ -9976,7 +9972,7 @@ Blog Default Style
   font-weight: 700;
   font-size: 24px;
   color: #222222;
-  font-family: "louis_george_caferegular"; }
+   }
 
 .address-inner .address p {
   line-height: 1.94;
@@ -9984,7 +9980,7 @@ Blog Default Style
   margin-bottom: 0;
   font-size: 16px;
   color: #333333;
-  font-family: "louis_george_caferegular"; }
+   }
   .address-inner .address p a {
     color: #333333;
     -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -9994,7 +9990,7 @@ Blog Default Style
     padding: 2px 0;
     overflow: hidden;
     z-index: 1;
-    font-family: "louis_george_caferegular";
+
     display: inline-block;
     line-height: 16px; }
     .address-inner .address p a::after {
@@ -10125,7 +10121,7 @@ Contact Form Style 01
     -webkit-transition: all 0.3s cubic-bezier(1, 0.03, 0, 0.99);
     -o-transition: all 0.3s cubic-bezier(1, 0.03, 0, 0.99);
     transition: all 0.3s cubic-bezier(1, 0.03, 0, 0.99);
-    font-family: "louis_george_caferegular";
+
     font-size: 16px;
     font-weight: 700; }
   .form-style--1 .input-box textarea {
@@ -10138,7 +10134,7 @@ Contact Form Style 01
     -webkit-transition: all 0.3s cubic-bezier(1, 0.03, 0, 0.99);
     -o-transition: all 0.3s cubic-bezier(1, 0.03, 0, 0.99);
     transition: all 0.3s cubic-bezier(1, 0.03, 0, 0.99);
-    font-family: "louis_george_caferegular";
+
     font-size: 16px;
     font-weight: 700;
     padding-left: 0; }
@@ -10178,7 +10174,7 @@ Contact Form Style 01
     color: #333333;
     font-weight: 700;
     font-size: 16px;
-    font-family: "louis_george_caferegular"; }
+     }
     @media only screen and (max-width: 767px) {
       .form-style--1 .form-action .form-description {
         margin-right: 40px;
@@ -10201,7 +10197,7 @@ Contact Form Style 01
       cursor: pointer;
       -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
-      font-family: "Poppins", sans-serif;
+
       color: #ffffff;
       border-color: #0038E3;
       background-color: #0038E3;
@@ -10236,7 +10232,7 @@ Contact Form Style 01
     background-color: #0038E3;
     font-size: 14px;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+
     border-radius: 6px;
     -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -10503,7 +10499,7 @@ Contact Form Style 01
   font-weight: 600;
   font-size: 14px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+
   white-space: nowrap;
   line-height: 1.2; }
   .about--creative .content a.about-btn i {
@@ -10565,7 +10561,7 @@ Contact Form Style 01
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  font-family: "Poppins", sans-serif;
+
   font-weight: 600;
   font-size: 14px; }
   .call-to-action button i {
@@ -10587,16 +10583,16 @@ Contact Form Style 01
     text-transform: uppercase;
     line-height: 1.43;
     margin-bottom: 24px;
-    font-family: "Montserrat", sans-serif; }
+     }
   .call-to-action.callto-action--1 .content h3 {
     font-size: 48px;
     line-height: 1.21;
     color: #fff;
     font-weight: 700;
-    font-family: "Montserrat", sans-serif;
+
     margin-bottom: 60px; }
     .call-to-action.callto-action--1 .content h3 span {
-      font-family: "Playfair Display", serif;
+
       font-style: italic;
       font-weight: 700; }
 
@@ -11138,7 +11134,7 @@ Contact Form Style 01
       left: 0;
       right: auto; }
   .social-icon.social-text.second-font li a {
-    font-family: "louis_george_caferegular"; }
+     }
   .social-icon.tooltip-layout.text-dark li a {
     color: #333333;
     -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -11204,7 +11200,7 @@ Contact Form Style 01
       border: 7px solid transparent;
       z-index: 1000001; }
     .social-icon.tooltip-layout li a[class*=hint--][aria-label]:after {
-      font-family: "Poppins", sans-serif;
+
       font-weight: 600;
       line-height: 1.23;
       content: attr(aria-label); }
@@ -11407,7 +11403,7 @@ a {
     border: 7px solid transparent;
     z-index: 1000001; }
   a[class*=hint--][aria-label]:after {
-    font-family: "Poppins", sans-serif;
+
     font-weight: 600;
     line-height: 1.23;
     content: attr(aria-label); }
@@ -12084,13 +12080,13 @@ a {
     font-size: 18px;
     margin-bottom: 14px;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+
     line-height: 1.23; }
   .carousle-slider .content p {
     line-height: 1.58;
     font-size: 14px;
     font-weight: 500;
-    font-family: "Poppins", sans-serif;
+
     color: #333333;
     margin: 0; }
 
@@ -12206,7 +12202,7 @@ Countdown Area
   bottom: -31px;
   font-size: 14px !important;
   color: #999;
-  font-family: "Poppins", sans-serif; }
+   }
 
 .time_circles > div > span {
   display: block;
@@ -12538,7 +12534,7 @@ Progress Charts
           border-radius: 50%;
           text-align: center;
           z-index: 3;
-          font-family: "Poppins", sans-serif; }
+           }
     .bk-gradation .item-grid .content {
       position: relative;
       text-align: center;
@@ -12700,7 +12696,7 @@ Pricing PLans
     .ht-pricing-list-view thead tr th.pricing-header .heading-h4 {
       font-size: 24px;
       color: #222222;
-      font-family: "Poppins", sans-serif;
+
       font-weight: 600;
       letter-spacing: 0em;
       line-height: 1.23;
@@ -12708,7 +12704,7 @@ Pricing PLans
     .ht-pricing-list-view thead tr th.pricing-header .heading-h6 {
       font-size: 14px;
       color: #222222;
-      font-family: "Poppins", sans-serif;
+
       font-weight: 600;
       letter-spacing: 0em;
       line-height: 1.23;
@@ -13043,13 +13039,13 @@ Testimonial Area
         margin-bottom: 6px;
         color: #222222;
         font-weight: 600;
-        font-family: "Poppins", sans-serif; }
+         }
       .testimonial_style--1 .content .testimonial-info .clint-info span {
         color: #333333;
         font-weight: 500;
         line-height: 1.58;
         font-size: 14px;
-        font-family: "Poppins", sans-serif; }
+         }
   .testimonial_style--1 .content .testimonial-quote {
     padding: 2px 5px 0 0;
     font-size: 28px;
@@ -13204,13 +13200,13 @@ Testimonial Area
         font-size: 18px;
         line-height: 1.388;
         margin-bottom: 4px;
-        font-family: "Poppins", sans-serif; }
+         }
       .testimonial_style--2 .content .testimonial-info .clint-info span {
         font-weight: 500;
         letter-spacing: 0em;
         line-height: 1.58;
         font-size: 14px;
-        font-family: "Poppins", sans-serif; }
+         }
     .testimonial_style--2 .content .testimonial-info .testimonial-quote {
       position: absolute;
       right: 0;
@@ -13294,7 +13290,7 @@ Testimonial Area
     font-size: 30px;
     line-height: 1.6;
     font-style: italic;
-    font-family: "Playfair Display", serif;
+
     margin-bottom: 40px;
     color: #fff; }
     @media only screen and (max-width: 767px) {
@@ -13316,7 +13312,7 @@ Testimonial Area
     font-weight: 700;
     display: inline-block;
     margin-bottom: 0;
-    font-family: "Poppins", sans-serif; }
+     }
   .testimonial-nav-content .testimonial-nav .content .testimonial-info .clint-info span {
     font-size: 15px;
     font-style: italic;
@@ -13328,7 +13324,7 @@ Testimonial Area
   font-size: 30px;
   line-height: 1.5;
   font-style: normal;
-  font-family: "louis_george_caferegular";
+
   color: #222222; }
   @media only screen and (max-width: 767px) {
     .testimonial-nav-content.testimonial-content--2 .testimonial-nav .content p {
@@ -13340,7 +13336,7 @@ Testimonial Area
   font-weight: 700;
   display: inline-block;
   margin-bottom: 0;
-  font-family: "Poppins", sans-serif; }
+   }
 
 .testimonial-nav-content.testimonial-content--2 .testimonial-nav .content .testimonial-info .clint-info span {
   font-size: 15px;
@@ -13398,14 +13394,14 @@ Testimonial Area
       font-size: 18px;
       line-height: 1.388;
       margin-bottom: 4px;
-      font-family: "Poppins", sans-serif;
+
       color: #ffffff; }
     .testimonanial-style--3 .testimonial-info .clint-info span {
       font-weight: 500;
       letter-spacing: 0em;
       line-height: 1.58;
       font-size: 14px;
-      font-family: "Poppins", sans-serif;
+
       color: #ffffff; }
 
 .testimonial_style--4 .content {
@@ -13450,13 +13446,13 @@ Testimonial Area
         margin-bottom: 6px;
         color: #fff;
         font-weight: 600;
-        font-family: "Poppins", sans-serif; }
+         }
       .testimonial_style--4 .content .testimonial-info .clint-info span {
         color: rgba(255, 255, 255, 0.6);
         font-weight: 500;
         line-height: 1.58;
         font-size: 14px;
-        font-family: "Poppins", sans-serif; }
+         }
 
 .testimonial_style--5 .content {
   margin: 0 auto;
@@ -13484,13 +13480,13 @@ Testimonial Area
         margin-bottom: 6px;
         color: #fff;
         font-weight: 600;
-        font-family: "Poppins", sans-serif; }
+         }
       .testimonial_style--5 .content .testimonial-info .clint-info span {
         color: rgba(255, 255, 255, 0.6);
         font-weight: 500;
         line-height: 1.58;
         font-size: 18px;
-        font-family: "Poppins", sans-serif; }
+         }
 
 @media only screen and (max-width: 767px) {
   .testimonial_style--5 .content p {
@@ -14106,7 +14102,7 @@ Breadcaump Area
   font-weight: 600;
   line-height: 1.41;
   font-size: 32px;
-  font-family: "Poppins", sans-serif; }
+   }
   .breadcaump-area.breadcaump-title-bar .breadcaump-inner .heading.heading-h1 {
     font-weight: 600;
     line-height: 1.41;
@@ -14138,7 +14134,7 @@ Breadcaump Area
       -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
       -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
       transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-      font-family: "Poppins", sans-serif; }
+       }
       .breadcaump-area.breadcaump-title-bar .breadcaump-inner .breadcrumb-insite ul.core-breadcaump li a::after {
         content: "";
         width: 0;
@@ -14512,7 +14508,7 @@ Breadcaump Area
         color: #ffffff;
         border-color: #0038E3;
         background-color: #0038E3;
-        font-family: "Poppins", sans-serif;
+
         height: 55px;
         line-height: 53px;
         outline: none;
@@ -14678,7 +14674,7 @@ Start Dropdown Menu
       border: 0 solid transparent;
       border-bottom: 1px solid #444;
       color: #ffffff;
-      font-family: "Poppins", sans-serif; }
+       }
     .mega__width--fullscreen .mega__list li a span {
       position: relative;
       padding: 2px 0;
@@ -14817,7 +14813,7 @@ Typography Area
 
 .heading {
   color: #222222;
-  font-family: "Poppins", sans-serif;
+
   font-weight: 600;
   letter-spacing: 0em;
   line-height: 1.23;
@@ -14825,17 +14821,17 @@ Typography Area
   .heading.letter-spacing-3 {
     letter-spacing: 3px; }
   .heading.heading-font {
-    font-family: "louis_george_caferegular"; }
+     }
   .heading.bk-hover a {
     color: #222222; }
   .heading.playfair-font {
-    font-family: "Playfair Display", serif; }
+     }
   .heading.secondary-font {
-    font-family: "Montserrat", sans-serif; }
+     }
   .heading.roboto-font {
-    font-family: "Roboto", sans-serif; }
+  }
   .heading.font-reenie {
-    font-family: 'Reenie Beanie', cursive; }
+    }
   .heading.font-blod {
     font-weight: 700; }
   .heading.font-medium {
@@ -15095,12 +15091,12 @@ p.bk_pra {
   font-weight: 500;
   line-height: 1.58;
   font-size: 14px;
-  font-family: "Poppins", sans-serif; }
+}
   @media only screen and (max-width: 767px) {
     p.bk_pra br {
       display: none; } }
   p.bk_pra.heading-font {
-    font-family: "louis_george_caferegular";
+
     line-height: 1.32;
     font-size: 16px;
     color: #333333; }
@@ -15131,9 +15127,11 @@ p.bk_pra {
       p.bk_pra.font-18 {
         font-size: 14px; } }
   p.bk_pra.secondary-font {
-    font-family: "Montserrat", sans-serif; }
+
+  }
   p.bk_pra.heading-font2 {
-    font-family: "louis_george_caferegular"; }
+
+  }
   p.bk_pra.font-blod {
     font-weight: 700; }
   p.bk_pra.line-height-1-63 {
@@ -15219,7 +15217,7 @@ p.bk_pra {
     font-weight: 600;
     line-height: 1.625;
     color: #222222;
-    font-family: "Poppins", sans-serif;
+
     font-style: normal; }
 
 /*==========================
@@ -15316,14 +15314,16 @@ List Area
         font-weight: 500;
         letter-spacing: 0em;
         line-height: 1.38;
-        font-family: "louis_george_caferegular"; }
+
+      }
       .bk-list--2 .list-header.with-number--body h6.heading {
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 0em;
         line-height: 1.38;
         color: #333333;
-        font-family: "louis_george_caferegular"; }
+
+       }
 
 /* =====================
 Pricing Box
@@ -15729,18 +15729,22 @@ Pricing Box
     margin-bottom: 18px;
     font-weight: 500; }
   .single-svg-icon-box:hover {
-    background: none; }
+    background-color:#fff;
+   }
     .single-svg-icon-box:hover::before {
-      opacity: 0.5; }
+      /* opacity: 0.5;  */
+    }
     .single-svg-icon-box:hover .grid-overlay {
       opacity: 1;
       visibility: visible; }
     .single-svg-icon-box:hover .svg-icon svg * {
       stroke: #fff; }
     .single-svg-icon-box:hover .content h5 {
-      color: #fff; }
+      /* color: #fff; */
+     }
     .single-svg-icon-box:hover .content p {
-      color: #fff; }
+      /* color: #fff; */
+     }
   .single-svg-icon-box.business-icon-box {
     position: relative;
     -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -15768,7 +15772,7 @@ Pricing Box
         transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
       .single-svg-icon-box.business-icon-box .content p {
         color: #fff;
-        font-family: "CerebriSans";
+
         -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
         -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
         transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
@@ -15918,7 +15922,8 @@ Dividers Area
     font-weight: 500;
     line-height: 1.58;
     font-size: 14px;
-    font-family: "Poppins", sans-serif; }
+
+   }
   .message-box.bg_cat--1 {
     background: #eee; }
     .message-box.bg_cat--1 .icon {
@@ -15964,7 +15969,7 @@ Dividers Area
     padding: 0;
     font-weight: 600;
     border: 0 none;
-    font-family: "Poppins", sans-serif;
+
     -webkit-appearance: none;
     display: block;
     background: #f7f7f7;
@@ -15996,7 +16001,7 @@ Dividers Area
   letter-spacing: 0em;
   line-height: 1.58;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+
   border: 0 none;
   -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
@@ -16023,7 +16028,7 @@ Dividers Area
     padding: 0;
     font-weight: 600;
     border: 0 none;
-    font-family: "Poppins", sans-serif;
+
     -webkit-appearance: none;
     display: block;
     position: relative;
@@ -16055,7 +16060,7 @@ Dividers Area
   font-weight: 500;
   line-height: 1.58;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+
   border: 0 none;
   -webkit-box-shadow: inherit;
   box-shadow: inherit;
@@ -16564,7 +16569,7 @@ body.loaded .page-loading {
         margin: 0;
         font-weight: 600;
         letter-spacing: 0em;
-        font-family: "Poppins", sans-serif; }
+         }
         @media only screen and (max-width: 767px) {
           .portfolio.portfolio_style--1 .port-overlay-info .hover-action h3.post-overlay-title {
             font-size: 20px; } }
@@ -17289,7 +17294,7 @@ body.loaded .page-loading {
         -ms-flex-positive: 1;
         flex-grow: 1;
         font-weight: 600;
-        font-family: "Poppins", sans-serif; }
+         }
         .portfolio-cation .port-overlay-info .hover-action .post-overlay-title a {
           color: #222222; }
       .portfolio-cation .port-overlay-info .hover-action .category {
@@ -17346,7 +17351,7 @@ body.loaded .page-loading {
       -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
       transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
       font-weight: 600;
-      font-family: "Poppins", sans-serif; }
+       }
       .messonry-button button span.filter-counter::before {
         position: absolute;
         right: 0;
@@ -17990,7 +17995,7 @@ Has Center
           -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
           -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
           transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-          font-family: "louis_george_caferegular";
+
           font-weight: 700;
           display: inline-block; }
           @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -19149,7 +19154,7 @@ Blog Main Quote
   margin-bottom: 20px;
   padding-bottom: 11px;
   border-bottom: 1px solid #eee;
-  font-family: "Poppins", sans-serif;
+
   font-weight: 600;
   line-height: 1.23;
   color: #222222; }
@@ -19313,7 +19318,7 @@ Shop Sidebar
   margin-bottom: 20px;
   padding-bottom: 11px;
   border-bottom: 1px solid #eee;
-  font-family: "Poppins", sans-serif;
+
   font-weight: 600;
   line-height: 1.23;
   color: #222222; }
@@ -20936,7 +20941,7 @@ Main Components
       font-size: 100px;
       line-height: 1.06;
       margin-bottom: 77px;
-      font-family: "louis_george_caferegular"; }
+       }
       @media only screen and (max-width: 767px) {
         .gradient-wrapper .post-info .inner .main-info .main-info-inner h6 {
           font-size: 76px;
@@ -20950,7 +20955,7 @@ Main Components
       line-height: 1.13;
       margin-bottom: 140px;
       text-align: left;
-      font-family: "louis_george_caferegular"; }
+       }
       @media only screen and (max-width: 767px) {
         .gradient-wrapper .post-info .inner .main-info .main-info-inner h2 {
           font-size: 30px;
@@ -20962,7 +20967,7 @@ Main Components
       font-size: 18px;
       font-weight: 700;
       color: #222;
-      font-family: "louis_george_caferegular"; }
+       }
       .gradient-wrapper .post-info .inner .main-info .main-info-inner a.post-read-more .btn-icon {
         position: relative;
         content: "";
@@ -21060,7 +21065,7 @@ Main Components
     left: 40px;
     font-size: 18px;
     color: #222;
-    font-family: "louis_george_caferegular"; }
+     }
     @media only screen and (max-width: 767px) {
       .gradient-wrapper .post-info .inner .post-categories {
         bottom: -26px; } }
@@ -21377,7 +21382,7 @@ Main Components
       font-weight: 600;
       line-height: 1.18;
       font-size: 16px;
-      font-family: "Poppins", sans-serif;
+
       color: #0038E3;
       padding-top: 41px;
       padding-bottom: 41px;
@@ -22251,7 +22256,7 @@ header.br_header.header-default.header-fixed {
               margin: 5px 15px;
               padding: 5px 0;
               font-size: 14px;
-              font-family: "Montserrat", sans-serif; }
+               }
               .br_header-sidebar .side-header-inner .header-wrap .header-center .header-social-neworks .inner a span {
                 color: #999;
                 -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -22343,7 +22348,7 @@ header.br_header.header-default.header-fixed {
       font-size: 18px;
       line-height: 1.4;
       margin-bottom: 21px;
-      font-family: "Poppins", sans-serif;
+
       font-weight: 600;
       margin: 0 0 18px; }
     .single-motive-speach .content p {
@@ -22648,10 +22653,10 @@ Freelancer Area
 Header Font Family
 ==========================*/
 .secondary-font .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1 > a {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 .secondary-font .mega__width--fullscreen .mega__list li.mega--title {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 /* ======================
     Footer Area
@@ -22833,14 +22838,14 @@ Header Font Family
     .fullscreen-slider-activation .slide-portfolio-single .content h5 {
       font-weight: 600;
       margin-bottom: 30px;
-      font-family: "Montserrat", sans-serif; }
+       }
     .fullscreen-slider-activation .slide-portfolio-single .content h2 {
       margin-bottom: 52px; }
       .fullscreen-slider-activation .slide-portfolio-single .content h2 a {
         color: #fff;
         font-size: 48px;
         line-height: 1.21;
-        font-family: "Montserrat", sans-serif; }
+         }
         @media only screen and (max-width: 767px) {
           .fullscreen-slider-activation .slide-portfolio-single .content h2 a {
             font-size: 32px; } }
@@ -22848,7 +22853,7 @@ Header Font Family
       color: #fff;
       background: transparent;
       border-color: #fff;
-      font-family: "Montserrat", sans-serif; }
+       }
       .fullscreen-slider-activation .slide-portfolio-single .content .slide-btn a:hover {
         background: #fff;
         color: #222; }
@@ -23101,7 +23106,7 @@ Header Font Family
           line-height: 1.18;
           font-size: 18px;
           color: #222222;
-          font-family: "louis_george_caferegular";
+
           -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
           -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
           transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
@@ -23236,7 +23241,7 @@ Button Hire
     color: #222;
     font-size: 18px;
     font-weight: 700;
-    font-family: "louis_george_caferegular"; }
+     }
   .hire-on-top-button:hover .the-arrow {
     color: #222; }
     .hire-on-top-button:hover .the-arrow-left .shaft {
@@ -23373,7 +23378,7 @@ Button Hire
         left: -50px; } }
     .single-portfolio-slide .inner .info h3.heading {
       margin-bottom: 18px;
-      font-family: "louis_george_caferegular"; }
+       }
       .single-portfolio-slide .inner .info h3.heading a {
         color: #ffffff; }
     .single-portfolio-slide .inner .info .category {
@@ -23381,7 +23386,7 @@ Button Hire
       .single-portfolio-slide .inner .info .category a {
         font-size: 16px;
         color: #999;
-        font-family: "louis_george_caferegular"; }
+         }
     .single-portfolio-slide .inner .info .slide-btn a {
       -webkit-box-shadow: none;
       box-shadow: none;
@@ -23771,7 +23776,7 @@ Vertical Slider Portfolio
         z-index: 2;
         font-weight: 700;
         line-height: 1.38;
-        font-family: "louis_george_caferegular"; }
+         }
         .fullscreen-slider-wrapper .feature-wrapper .fullscreen-inner .post-character.style-1 {
           color: #b40720; }
         .fullscreen-slider-wrapper .feature-wrapper .fullscreen-inner .post-character.style-2 {
@@ -23802,7 +23807,7 @@ Vertical Slider Portfolio
           font-size: 18px;
           font-weight: 700;
           color: #222;
-          font-family: "louis_george_caferegular";
+
           -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
           -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
           transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
@@ -24049,7 +24054,7 @@ Shop Slide Area
     .product .product-info .price span {
       display: inline-block;
       color: #333333;
-      font-family: "Poppins", sans-serif; }
+       }
       .product .product-info .price span.new-price {
         color: #d5382c; }
 
@@ -24186,7 +24191,7 @@ Shop Slide Area
           -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
         .product .product-thumbnail .product-action .action-list.tooltip-layout li a[class*=hint--][aria-label]:after {
-          font-family: "Poppins", sans-serif;
+
           font-weight: 600;
           line-height: 1.23;
           content: attr(aria-label); }
@@ -24542,7 +24547,7 @@ Prresentation Area
         .presentation-slider-wrapper .presentation-inner .inner.about-inner .content h6 {
           text-transform: uppercase; }
         .presentation-slider-wrapper .presentation-inner .inner.about-inner .content h2 {
-          font-family: "louis_george_caferegular";
+
           font-size: 48px;
           line-height: 1.11;
           word-wrap: break-word;
@@ -24554,7 +24559,7 @@ Prresentation Area
             .presentation-slider-wrapper .presentation-inner .inner.about-inner .content h2 {
               font-size: 35px; } }
         .presentation-slider-wrapper .presentation-inner .inner.about-inner .content p {
-          font-family: "louis_george_caferegular";
+
           font-weight: 700; }
       .presentation-slider-wrapper .presentation-inner .inner.about-service .row {
         -webkit-box-align: center;
@@ -24652,7 +24657,7 @@ Prresentation Area
   border-bottom-color: rgba(0, 0, 0, 0);
   margin-bottom: 19px;
   padding-bottom: 13px;
-  font-family: "Poppins", sans-serif; }
+   }
 
 .footer-widget .footer-menu ul.ft-menu-list {
   list-style: none;
@@ -24669,7 +24674,7 @@ Prresentation Area
       font-weight: 500;
       letter-spacing: 0em;
       line-height: 2;
-      font-family: "louis_george_caferegular";
+
       -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
       -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
       transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
@@ -24686,7 +24691,7 @@ Prresentation Area
   font-size: 14px;
   font-weight: 500;
   line-height: 2;
-  font-family: "louis_george_caferegular";
+
   color: #ffffff; }
   .footer-widget .footer-address p a {
     padding: 4px 0;
@@ -24723,7 +24728,7 @@ Prresentation Area
     color: #fff; }
 
 .footer-widget.text-var--2 .footer-menu ul.ft-menu-list li a {
-  font-family: "Poppins", sans-serif;
+
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0em;
@@ -24732,11 +24737,11 @@ Prresentation Area
 .footer-widget.text-var--2 .footer-address p {
   font-size: 14px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif; }
+   }
   .footer-widget.text-var--2 .footer-address p a {
     font-size: 14px;
     font-weight: 500;
-    font-family: "Poppins", sans-serif; }
+     }
 
 .footer-widget.news-bulletin .heading {
   color: #999; }
@@ -24826,22 +24831,22 @@ Prresentation Area
   font-size: 14px;
   font-weight: 500;
   line-height: 2;
-  font-family: "louis_george_caferegular";
+
   color: #ffffff; }
 
 .copyright.text-var-2 .copyright-left ul.bk-copyright-menu li a {
-  font-family: "Poppins", sans-serif;
+
   font-size: 14px; }
 
 .copyright.text-var-2 .copyright-right p {
-  font-family: "Poppins", sans-serif; }
+   }
 
 .copyright.copyright--2 .copyright-left p {
   margin: 0;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.86;
-  font-family: "Montserrat", sans-serif;
+
   color: #999; }
 
 .copyright.copyright--2 .copyright-right {
@@ -36372,50 +36377,50 @@ body.template-font-1 .h3,
 body.template-font-1 .h4,
 body.template-font-1 .h5,
 body.template-font-1 .h6 {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .heading.font-reenie {
-  font-family: 'Reenie Beanie', cursive; }
+  }
 
 body.template-font-1 .mini-cart .shopping-cart .shop-inner ul.product-list li .content .inner h4 {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .mega__width--fullscreen .mega__list li a span {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1 > a span {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .footer-widget .footer-menu ul.ft-menu-list li a {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .copyright ul.bk-copyright-menu li a {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .copyright .copyright-right p {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .footer-widget .footer-address p {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .form-style--1 .input-box input,
 body.template-font-1 .form-style--1 .input-box textarea {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .testimonial_style--1 .content p {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .testimonial_style--1 .content .testimonial-info .clint-info span {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .service.service--1 .content p {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .service.service--2 .content h4 {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-1 .service.service--2 .content p {
-  font-family: "Poppins", sans-serif; }
+   }
 
 body.template-font-2 .heading,
 body.template-font-2 h1,
@@ -36430,50 +36435,50 @@ body.template-font-2 .h3,
 body.template-font-2 .h4,
 body.template-font-2 .h5,
 body.template-font-2 .h6 {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .heading.font-reenie {
-  font-family: 'Reenie Beanie', cursive; }
+  }
 
 body.template-font-2 .mini-cart .shopping-cart .shop-inner ul.product-list li .content .inner h4 {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .mega__width--fullscreen .mega__list li a span {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1 > a span {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .footer-widget .footer-menu ul.ft-menu-list li a {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .copyright ul.bk-copyright-menu li a {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .copyright .copyright-right p {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .footer-widget .footer-address p {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .form-style--1 .input-box input,
 body.template-font-2 .form-style--1 .input-box textarea {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .testimonial_style--1 .content p {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .testimonial_style--1 .content .testimonial-info .clint-info span {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .service.service--1 .content p {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .service.service--2 .content h4 {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-2 .service.service--2 .content p {
-  font-family: "louis_george_caferegular"; }
+   }
 
 body.template-font-3 .heading,
 body.template-font-3 h1,
@@ -36488,50 +36493,50 @@ body.template-font-3 .h3,
 body.template-font-3 .h4,
 body.template-font-3 .h5,
 body.template-font-3 .h6 {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .heading.font-reenie {
-  font-family: 'Reenie Beanie', cursive; }
+  }
 
 body.template-font-3 .mini-cart .shopping-cart .shop-inner ul.product-list li .content .inner h4 {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .mega__width--fullscreen .mega__list li a span {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1 > a span {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .footer-widget .footer-menu ul.ft-menu-list li a {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .copyright ul.bk-copyright-menu li a {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .copyright .copyright-right p {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .footer-widget .footer-address p {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .form-style--1 .input-box input,
 body.template-font-3 .form-style--1 .input-box textarea {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .testimonial_style--1 .content p {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .testimonial_style--1 .content .testimonial-info .clint-info span {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .service.service--1 .content p {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .service.service--2 .content h4 {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-3 .service.service--2 .content p {
-  font-family: "Montserrat", sans-serif; }
+   }
 
 body.template-font-4 .heading,
 body.template-font-4 h1,
@@ -36546,50 +36551,50 @@ body.template-font-4 .h3,
 body.template-font-4 .h4,
 body.template-font-4 .h5,
 body.template-font-4 .h6 {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .heading.font-reenie {
-  font-family: 'Reenie Beanie', cursive; }
+  }
 
 body.template-font-4 .mini-cart .shopping-cart .shop-inner ul.product-list li .content .inner h4 {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .mega__width--fullscreen .mega__list li a span {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1 > a span {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .footer-widget .footer-menu ul.ft-menu-list li a {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .copyright ul.bk-copyright-menu li a {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .copyright .copyright-right p {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .footer-widget .footer-address p {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .form-style--1 .input-box input,
 body.template-font-4 .form-style--1 .input-box textarea {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .testimonial_style--1 .content p {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .testimonial_style--1 .content .testimonial-info .clint-info span {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .service.service--1 .content p {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .service.service--2 .content h4 {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-4 .service.service--2 .content p {
-  font-family: "Playfair Display", serif; }
+   }
 
 body.template-font-5 .heading,
 body.template-font-5 h1,
@@ -36607,7 +36612,7 @@ body.template-font-5 .h6 {
   font-family: "Permanent Marker", cursive; }
 
 body.template-font-5 .heading.font-reenie {
-  font-family: 'Reenie Beanie', cursive; }
+  }
 
 body.template-font-5 .mini-cart .shopping-cart .shop-inner ul.product-list li .content .inner h4 {
   font-family: "Permanent Marker", cursive; }
@@ -36662,50 +36667,50 @@ body.template-font-6 .h3,
 body.template-font-6 .h4,
 body.template-font-6 .h5,
 body.template-font-6 .h6 {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .heading.font-reenie {
-  font-family: 'Reenie Beanie', cursive; }
+  }
 
 body.template-font-6 .mini-cart .shopping-cart .shop-inner ul.product-list li .content .inner h4 {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .mega__width--fullscreen .mega__list li a span {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1 > a span {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .footer-widget .footer-menu ul.ft-menu-list li a {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .copyright ul.bk-copyright-menu li a {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .copyright .copyright-right p {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .footer-widget .footer-address p {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .form-style--1 .input-box input,
 body.template-font-6 .form-style--1 .input-box textarea {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .testimonial_style--1 .content p {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .testimonial_style--1 .content .testimonial-info .clint-info span {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .service.service--1 .content p {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .service.service--2 .content h4 {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-6 .service.service--2 .content p {
-  font-family: "Roboto", sans-serif; }
+}
 
 body.template-font-7 .heading,
 body.template-font-7 h1,
@@ -36723,7 +36728,7 @@ body.template-font-7 .h6 {
   font-family: "CerebriSans"; }
 
 body.template-font-7 .heading.font-reenie {
-  font-family: 'Reenie Beanie', cursive; }
+  }
 
 body.template-font-7 .mini-cart .shopping-cart .shop-inner ul.product-list li .content .inner h4 {
   font-family: "CerebriSans"; }
@@ -36781,7 +36786,7 @@ body.template-font-8 .h6 {
   font-family: "Comic Sans MS"; }
 
 body.template-font-8 .heading.font-reenie {
-  font-family: 'Reenie Beanie', cursive; }
+  }
 
 body.template-font-8 .mini-cart .shopping-cart .shop-inner ul.product-list li .content .inner h4 {
   font-family: "Comic Sans MS"; }
@@ -36859,7 +36864,7 @@ body.template-font-8 .service.service--2 .content p {
       padding: 0 15px; }
       .pv-service-wrapper .single-grid .inner h4 {
         font-size: 20px;
-        font-family: "Poppins", sans-serif;
+
         line-height: 1.4;
         margin-bottom: 0;
         word-wrap: break-word;

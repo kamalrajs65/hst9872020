@@ -13,14 +13,11 @@
     <link rel="stylesheet" href="{{ url('assets')}}/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ url('assets')}}/css/revoulation.css">
     <link rel="stylesheet" href="{{ url('assets')}}/css/plugins.css">
-
     <link rel="stylesheet" href="{{ url('assets')}}/style.css">
-
     <link rel="stylesheet" href="{{ url('assets')}}/extra.css">
     <link rel="stylesheet" href="{{ url('assets')}}/theme.css">
-
     <link rel="stylesheet" href="{{ url('assets')}}/css/custom.css">
-    <script   src="http://code.jquery.com/jquery-1.8.3.min.js" ></script>
+    <script   src="{{ url('assets')}}/js/jquery.js" ></script>
     <script src="{{ url('assets')}}/js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="{{ url('assets')}}/js/vendor/jquery.min.js"></script>
     <script src="{{ url('assets')}}/js/popper.min.js"></script>
@@ -40,7 +37,6 @@
 
     <!-- Wrapper -->
     <div id="wrapper" class="wrapper">
-
         <!-- Header -->
         <header class="br_header header-default bg_color--23 border-bottom black-logo--version haeder-fixed-width haeder-fixed-150 headroom--sticky header-mega-menu clearfix">
             <div class="container-fluid">

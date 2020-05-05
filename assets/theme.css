@@ -98,7 +98,7 @@
   border: 1px solid #777;
   background: #ffffff;
   border-radius: 2px;
-  padding: 20px;
+  /* padding: 20px; */
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
@@ -125,7 +125,7 @@
   margin-top: 5px;
 }
 .timeline .timeline-item:last-child:nth-child(even) {
-  float: right;
+  /* float: right; */
 }
 .timeline .timeline-item:nth-child(even) .timeline-panel {
   float: right;

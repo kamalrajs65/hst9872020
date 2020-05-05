@@ -16,7 +16,7 @@ class Frontcontroller extends Controller
 
 
     public function index(){
-    
+
       return view('latest.home');
       //return view('front.index');
     }
@@ -25,7 +25,7 @@ class Frontcontroller extends Controller
         return view('latest.aboutus');
     }
     public function ourteam(){
-        return view('latest.team');
+        return view('latest.ourteam');
     }
     public function process(){
       return view('front.process');
