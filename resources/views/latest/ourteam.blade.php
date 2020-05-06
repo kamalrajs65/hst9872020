@@ -13,8 +13,8 @@
                       <div class="col-lg-12 col-12 col-xl-6 ptb-lg--60 ptb-md--60 ptb-sm--60">
                           <div class="landing-digital-product-inner plr--100 plr_lp--50  plr_md--50 plr_sm--30">
                               <div class="content mb--70 mb_sm--45">
-                                  <h2 class="heading heading-h2 line-height-1-42">We are delivering beautiful digital
-                                      products for you</h2>
+                                  <h2 class="heading heading-h2 line-height-1-42">Meet our happy people.</h2>
+                                      <p>Every impactful work is a result of collective effort. We know this very well, because we have invoked the principle of team work ever since the day we had started out.</p>
                               </div>
 
                           </div>
@@ -27,7 +27,7 @@
                 <div class="container">
                     <center><h3 class="heading heading-h3">Our excutive</h3></center>
                     <br>
-                    <div class="row row--30">                      
+                    <div class="row row--30">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                             <div class="team team__style--3">
                                 <div class="thumb">

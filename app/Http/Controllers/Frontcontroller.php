@@ -28,7 +28,8 @@ class Frontcontroller extends Controller
         return view('latest.ourteam');
     }
     public function process(){
-      return view('front.process');
+      // return view('front.process');
+      return view('latest.process');
     }
     public function portfolio(){
       return view('front.portfolio');

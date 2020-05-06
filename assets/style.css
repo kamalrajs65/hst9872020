@@ -33627,7 +33627,9 @@ body.template-color-23 .section-title h3 {
   color: #68AE4A; }
 
 body.template-color-23 .service.service--1:hover::before {
-  border-color: #68AE4A; }
+  /* border-color: #68AE4A;  */
+      border-color: #f89939;
+}
 
 body.template-color-23 .service.service--1 .icons {
   margin-bottom: 22px; }

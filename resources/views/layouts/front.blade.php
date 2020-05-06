@@ -56,11 +56,12 @@
                                 <nav class="page_nav">
                                     <ul class="mainmenu">
 
-                                        <li class="lavel-1  slide--megamenu"><a href="#"><span>Home</span></a></li>
+                                        <li class="lavel-1  slide--megamenu"><a href="{{ url('/')}}"><span>Home</span></a></li>
                                         <li class="lavel-1 with--drop slide-dropdown"><a href="#"><span>Why HST</span></a>
                                             <ul class="dropdown__menu">
                                                 <li><a href="{{ url('about-us')}}"><span>About Us</span></a></li>
                                                 <li><a href="{{ url('our-team')}}"><span>Our Team</span></a></li>
+                                                  <li><a href="{{ url('process')}}"><span>Our Process</span></a></li>
                                                 <li><a href=""><span>Shop Minimal</span></a></li>
                                                 <li><a href=""><span>Shop Fullwide</span></a></li>
                                             </ul>
