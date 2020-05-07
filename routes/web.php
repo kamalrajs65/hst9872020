@@ -20,6 +20,8 @@ Route::get('/','Frontcontroller@index');
 Route::get('about-us','Frontcontroller@about');
 Route::get('our-team','Frontcontroller@ourteam');
 Route::get('process','Frontcontroller@process');
+Route::get('quality_assurance','Frontcontroller@quality_assurance');
+Route::get('reviews','Frontcontroller@reviews');
 Route::get('portfolio','Frontcontroller@portfolio');
 Route::get('quote','Frontcontroller@quote');
 Route::get('contact','Frontcontroller@contact');

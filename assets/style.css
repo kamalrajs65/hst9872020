@@ -15973,7 +15973,7 @@ Dividers Area
     -webkit-appearance: none;
     display: block;
     background: #f7f7f7;
-    padding: 20px 26px;
+    padding: 20px 40px;
     margin: -1px -1px 0;
     border: 0 none;
     position: relative;
@@ -15986,14 +15986,17 @@ Dividers Area
       transform: translateY(-50%);
       font-family: Font Awesome\ 5 Free;
       font-weight: 900;
-      content: "\f107";
-      right: 16px;
+      content: "\f0b2";
+
+        left: 11px;
       font-size: 16px; }
     .bk-accordion .card-header h5 a.acc-btn[aria-expanded="true"] {
       background: #0038E3;
       color: #ffffff; }
       .bk-accordion .card-header h5 a.acc-btn[aria-expanded="true"]::before {
-        content: "\f104"; }
+        /* content: "\f104";  */
+        content: "\f0b2";
+      }
 
 .bk-accordion .card-body {
   padding: 27px 25px 39px;

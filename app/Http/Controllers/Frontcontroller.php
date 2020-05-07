@@ -31,6 +31,14 @@ class Frontcontroller extends Controller
       // return view('front.process');
       return view('latest.process');
     }
+
+    public function quality_assurance(){
+      return view('latest.quality_assurance');
+    }
+    public function reviews(){
+      return view('latest.reviews');
+    }
+
     public function portfolio(){
       return view('front.portfolio');
     }

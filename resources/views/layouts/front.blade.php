@@ -61,9 +61,11 @@
                                             <ul class="dropdown__menu">
                                                 <li><a href="{{ url('about-us')}}"><span>About Us</span></a></li>
                                                 <li><a href="{{ url('our-team')}}"><span>Our Team</span></a></li>
-                                                  <li><a href="{{ url('process')}}"><span>Our Process</span></a></li>
-                                                <li><a href=""><span>Shop Minimal</span></a></li>
-                                                <li><a href=""><span>Shop Fullwide</span></a></li>
+                                                <li><a href="{{ url('process')}}"><span>Our Process</span></a></li>
+                                                <li><a href="{{ url('quality_assurance')}}"><span>Quality Assurance</span></a></li>
+                                                <li><a href="{{ url('reviews')}}"><span>Reviews</span></a></li>
+
+
                                             </ul>
                                         </li>
                                         <li class="lavel-1  slide--megamenu"><a href="#"><span>Pages</span></a></li>
@@ -88,13 +90,13 @@
                                                     <!-- Start Single Product -->
                                                     <li>
                                                         <div class="thumb">
-                                                            <a href="single-product.html">
+                                                            <a href="#">
                                                                 <img src="{{ url('assets')}}/img/product/sm-image/sm-cat1-01.jpg" alt="Multipurpose template">
                                                             </a>
                                                         </div>
                                                         <div class="content">
                                                             <div class="inner">
-                                                                <h4><a href="single-product.html">Bottle with Leather
+                                                                <h4><a href="#">Bottle with Leather
                                                                         Grip</a></h4>
                                                                 <div class="quatity">
                                                                     <span>1 ×</span>
@@ -108,13 +110,13 @@
                                                     <!-- Start Single Product -->
                                                     <li>
                                                         <div class="thumb">
-                                                            <a href="single-product.html">
+                                                            <a href="#">
                                                                 <img src="img/product/sm-image/sm-cat1-02.jpg" alt="Multipurpose template">
                                                             </a>
                                                         </div>
                                                         <div class="content">
                                                             <div class="inner">
-                                                                <h4><a href="single-product.html">Crystal Glass Globe
+                                                                <h4><a href="#">Crystal Glass Globe
                                                                         Desk Lamp</a></h4>
                                                                 <div class="quatity">
                                                                     <span>1 ×</span>
@@ -128,13 +130,13 @@
                                                     <!-- Start Single Product -->
                                                     <li>
                                                         <div class="thumb">
-                                                            <a href="single-product.html">
+                                                            <a href="#">
                                                                 <img src="img/product/sm-image/sm-cat1-03.jpg" alt="Multipurpose template">
                                                             </a>
                                                         </div>
                                                         <div class="content">
                                                             <div class="inner">
-                                                                <h4><a href="single-product.html">Gold Plated Desk
+                                                                <h4><a href="#">Gold Plated Desk
                                                                         Lantern Lamp</a></h4>
                                                                 <div class="quatity">
                                                                     <span>1 ×</span>
@@ -206,7 +208,7 @@
                                                 <li><a href="checkout.html"><span>Checkout</span></a></li>
                                                 <li class="drop-lavel--2"><a href="#"><span>Single Product</span></a>
                                                     <ul class="lavel--2">
-                                                        <li><a href="single-product.html"><span>Layout 01</span></a></li>
+                                                        <li><a href="#"><span>Layout 01</span></a></li>
                                                         <li><a href="single-product2.html"><span>Layout 02</span></a></li>
                                                     </ul>
                                                 </li>
