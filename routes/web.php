@@ -22,6 +22,13 @@ Route::get('our-team','Frontcontroller@ourteam');
 Route::get('process','Frontcontroller@process');
 Route::get('quality_assurance','Frontcontroller@quality_assurance');
 Route::get('reviews','Frontcontroller@reviews');
+Route::get('ourworks','Frontcontroller@ourworks');
+Route::get('ensyfi_work','Frontcontroller@ensyfi_work');
+Route::get('heyla_work','Frontcontroller@heyla_work');
+
+
+
+
 Route::get('portfolio','Frontcontroller@portfolio');
 Route::get('quote','Frontcontroller@quote');
 Route::get('contact','Frontcontroller@contact');

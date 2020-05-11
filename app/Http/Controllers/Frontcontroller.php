@@ -38,6 +38,18 @@ class Frontcontroller extends Controller
     public function reviews(){
       return view('latest.reviews');
     }
+    public function ourworks(){
+      return view('latest.ourworks');
+    }
+    public function ensyfi_work(){
+      return view('latest.ensyfi_work');
+    }
+    public function heyla_work(){
+      return view('latest.heyla_work');
+    }
+
+
+
 
     public function portfolio(){
       return view('front.portfolio');
