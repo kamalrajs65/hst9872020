@@ -64,6 +64,7 @@
                                                 <li><a href="{{ url('process')}}"><span>Our Process</span></a></li>
                                                 <li><a href="{{ url('quality_assurance')}}"><span>Quality Assurance</span></a></li>
                                                 <li><a href="{{ url('reviews')}}"><span>Reviews</span></a></li>
+                                                <li><a href="{{ url('ourworks')}}"><span>Our Works</span></a></li>
 
 
                                             </ul>
