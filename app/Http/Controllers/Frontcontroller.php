@@ -48,6 +48,26 @@ class Frontcontroller extends Controller
       return view('latest.heyla_work');
     }
 
+    public function services(){
+      return view('latest.services');
+    }
+
+    public function service_mobile_app(){
+      return view('latest.service_mobile_app');
+    }
+    public function service_android_app(){
+      return view('latest.service_android_app');
+    }
+
+    public function service_ios_app(){
+      return view('latest.service_ios_app');
+    }
+
+    public function service_hybrid_app(){
+      return view('latest.service_hybrid_app');
+    }
+
+
 
 
 

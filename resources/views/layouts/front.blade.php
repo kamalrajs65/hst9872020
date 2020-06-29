@@ -69,10 +69,20 @@
 
                                             </ul>
                                         </li>
-                                        <li class="lavel-1  slide--megamenu"><a href="#"><span>Pages</span></a></li>
+                                        <li class="lavel-1 with--drop slide-dropdown"><a href="#"><span>Services</span></a>
+                                            <ul class="dropdown__menu">
+                                                <li><a href="{{ url('services')}}"><span>Our Services</span></a></li>
+                                                <li><a href="{{ url('service_mobile_app')}}"><span>Mobile app</span></a></li>
+                                                <li><a href="{{ url('service_android_app')}}"><span>Android app</span></a></li>
+                                                <li><a href="{{ url('service_ios_app')}}"><span>iOS app</span></a></li>
+                                                <li><a href="{{ url('service_hybrid_app')}}"><span>Hybrid app</span></a></li>
+                                                <li><a href="{{ url('service_wearable_app')}}"><span>Wearable app</span></a></li>
+                                            </ul>
+                                        </li>
+
                                         <li class="lavel-1 {{ url('assets')}}/ slide--megamenu"><a href="#"><span>Portfolio</span></a></li>
                                         <li class="lavel-1 {{ url('assets')}}/ slide--megamenu"><a href="#"><span>Elements</span></a></li>
-                                        <li class="lavel-1 {{ url('assets')}}/ slide--megamenu"><a href="#"><span>BLog</span></a></li>
+                                        <li class="lavel-1 {{ url('assets')}}/ slide--megamenu"><a href="#"><span>Blog</span></a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -195,42 +205,38 @@
                         <li class="has-mega-menu"><a href="#"><span>Home</span></a>
 
                         </li>
-                        <li class="lavel-1 with--drop slide-dropdown"><a href="#"><span>Why HST</span></a>
-
-                                            <!-- Start Dropdown Menu -->
-                                            <ul class="dropdown__menu">
-                                                <li><a href="shop-minimal.html"><span>Shop Minimal</span></a></li>
-                                                <li><a href="shop-fullwide.html"><span>Shop Fullwide</span></a></li>
-                                                <li><a href="cart.html"><span>Cart</span></a></li>
-                                                <li><a href="compare.html"><span>Compare</span></a></li>
-                                                <li><a href="my-account.html"><span>My Account</span></a></li>
-                                                <li><a href="login-register.html"><span>Login / Register</span></a></li>
-                                                <li><a href="wishlist.html"><span>Wishlist</span></a></li>
-                                                <li><a href="checkout.html"><span>Checkout</span></a></li>
-                                                <li class="drop-lavel--2"><a href="#"><span>Single Product</span></a>
-                                                    <ul class="lavel--2">
-                                                        <li><a href="#"><span>Layout 01</span></a></li>
-                                                        <li><a href="single-product2.html"><span>Layout 02</span></a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-
-                          </li>
-
-                        <li class="has-mega-menu"><a href="#"><span>Elements</span></a>
-
+                        <li class="has-mega-menu"><a href="#"><span>Why HST</span></a>
+                            <!-- Start Dropdown Menu -->
+                            <ul class="object-submenu">
+                              <li><a href="{{ url('about-us')}}"><span>About Us</span></a></li>
+                              <li><a href="{{ url('our-team')}}"><span>Our Team</span></a></li>
+                              <li><a href="{{ url('process')}}"><span>Our Process</span></a></li>
+                              <li><a href="{{ url('quality_assurance')}}"><span>Quality Assurance</span></a></li>
+                              <li><a href="{{ url('reviews')}}"><span>Reviews</span></a></li>
+                              <li><a href="{{ url('ourworks')}}"><span>Our Works</span></a></li>
+                            </ul>
                         </li>
+                          <li class="lavel-1 with--drop slide-dropdown"><a href="#"><span>Services</span></a>
+                                <ul class="dropdown__menu">
+                                  <li><a href="{{ url('services')}}"><span>Our Services</span></a></li>
+                                  <li><a href="{{ url('service_mobile_app')}}"><span>Mobile app</span></a></li>
+                                  <li><a href="{{ url('service_android_app')}}"><span>Android app</span></a></li>
+                                </ul>
+                            </li>
 
-                        <li class="has-mega-menu"><a href="#"><span>Portfolio</span></a>
 
-                        </li>
-
-                        <li class="has-mega-menu"><a href="#"><span>Blog</span></a>
-
-                        </li>
 
                         <li class="has-mega-menu"><a href="#"><span>Shop</span></a>
+                          <ul class="dropdown__menu">
+                            <li><a href="{{ url('about-us')}}"><span>About Us</span></a></li>
+                            <li><a href="{{ url('our-team')}}"><span>Our Team</span></a></li>
+                            <li><a href="{{ url('process')}}"><span>Our Process</span></a></li>
+                            <li><a href="{{ url('quality_assurance')}}"><span>Quality Assurance</span></a></li>
+                            <li><a href="{{ url('reviews')}}"><span>Reviews</span></a></li>
+                            <li><a href="{{ url('ourworks')}}"><span>Our Works</span></a></li>
+                          </ul>
                         </li>
+
                     </ul>
                 </div>
             </div>
