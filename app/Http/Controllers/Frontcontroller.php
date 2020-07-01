@@ -66,6 +66,11 @@ class Frontcontroller extends Controller
     public function service_hybrid_app(){
       return view('latest.service_hybrid_app');
     }
+    public function service_wearable_app(){
+      return view('latest.wearable_app');
+    }
+
+
 
 
 
