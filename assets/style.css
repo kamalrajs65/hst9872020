@@ -491,13 +491,15 @@ textarea {
 input,
 select,
 textarea {
-  width: 100%;
-  font-size: 14px; }
+  /* width: 100%;
+  font-size: 14px; */
+}
 
 input,
 select {
-  height: 40px;
-  padding: 0 15px; }
+  /* height: 40px;
+  padding: 0 15px;  */
+}
 
 /*==========================
 Animation Css
@@ -10265,7 +10267,8 @@ Contact Form Style 01
     background-color: #fff; }
 
 .contact-form.contact-form--2 {
-  padding: 83px 70px 85px;
+  /* padding: 83px 70px 85px; */
+      padding: 40px 20px 40px 20px;
   text-align: center; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .contact-form.contact-form--2 {
@@ -14563,7 +14566,8 @@ Start Dropdown Menu
   display: none;
   width: 300px;
   margin: 0;
-  padding: 35px 0 50px;
+  /* padding: 35px 0 50px; */
+      padding: 29px 18px 22px 28px;
   min-width: 300px; }
   .dropdown__menu li {
     padding: 0 40px; }
@@ -21590,7 +21594,8 @@ header.br_header.header-default.vertical-slide-portfolio {
             width: 140px !important; } }
         @media only screen and (max-width: 767px) {
           .header-default .header__wrapper .header-left .logo a img {
-            width: 110px !important; } }
+            width: auto;
+             } }
     .header-default .header__wrapper .header-flex-right {
       display: -webkit-box;
       display: -webkit-flex;
@@ -22969,7 +22974,7 @@ Header Font Family
         -ms-flex-positive: 1;
         flex-grow: 1; }
         .popup-mobile-manu .inner .mobileheader .logo a img {
-          width: 115px;
+          width: auto;
           height: auto;
           max-width: 100%; }
       .popup-mobile-manu .inner .mobileheader a.mobile-close {

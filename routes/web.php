@@ -31,6 +31,17 @@ Route::get('service_android_app','Frontcontroller@service_android_app');
 Route::get('service_ios_app','Frontcontroller@service_ios_app');
 Route::get('service_hybrid_app','Frontcontroller@service_hybrid_app');
 Route::get('service_wearable_app','Frontcontroller@service_wearable_app');
+Route::get('service_web_development','Frontcontroller@service_web_development');
+Route::get('service_ecommerce_app','Frontcontroller@service_ecommerce_app');
+Route::get('service_ui_ux','Frontcontroller@service_ui_ux');
+Route::get('service_prototype','Frontcontroller@service_prototype');
+Route::get('service_ondemand','Frontcontroller@service_ondemand');
+Route::get('industry_we_serve','Frontcontroller@industry_we_serve');
+Route::get('consultancy_service','Frontcontroller@consultancy_service');
+Route::get('software_maintainence','Frontcontroller@software_maintainence');
+
+
+
 
 
 

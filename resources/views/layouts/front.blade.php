@@ -22,6 +22,17 @@
     <script src="{{ url('assets')}}/js/vendor/jquery.min.js"></script>
     <script src="{{ url('assets')}}/js/popper.min.js"></script>
     <script src="{{ url('assets')}}/js/bootstrap.min.js"></script>
+    <style>
+    .mainmenu-wrapper .page_nav ul.mainmenu{
+    justify-content:flex-end;
+    }
+    .quote_btn{
+      background-color: #f8981d;
+      padding-top: 15px !important;
+      padding-bottom: 15px !important;
+      color: #fff !important;
+    }
+    </style>
 </head>
 <body class="template-color-23 template-font-7 CerebriSans-font">
     <!-- <div id="page-preloader" class="page-loading clearfix">
@@ -47,7 +58,7 @@
                             <div class="header-left">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="{{ url('assets')}}/img/logo/brook-black.png" alt="Brook Images">
+                                        <img src="{{ url('assets')}}/img/logo/logo.png" alt="Brook Images">
                                     </a>
                                 </div>
                             </div>
@@ -55,7 +66,6 @@
                             <div class="mainmenu-wrapper d-none d-lg-block">
                                 <nav class="page_nav">
                                     <ul class="mainmenu">
-
                                         <li class="lavel-1  slide--megamenu"><a href="{{ url('/')}}"><span>Home</span></a></li>
                                         <li class="lavel-1 with--drop slide-dropdown"><a href="#"><span>Why HST</span></a>
                                             <ul class="dropdown__menu">
@@ -65,8 +75,6 @@
                                                 <li><a href="{{ url('quality_assurance')}}"><span>Quality Assurance</span></a></li>
                                                 <li><a href="{{ url('reviews')}}"><span>Reviews</span></a></li>
                                                 <li><a href="{{ url('ourworks')}}"><span>Our Works</span></a></li>
-
-
                                             </ul>
                                         </li>
                                         <li class="lavel-1 with--drop slide-dropdown"><a href="#"><span>Services</span></a>
@@ -77,103 +85,45 @@
                                                 <li><a href="{{ url('service_ios_app')}}"><span>iOS app</span></a></li>
                                                 <li><a href="{{ url('service_hybrid_app')}}"><span>Hybrid app</span></a></li>
                                                 <li><a href="{{ url('service_wearable_app')}}"><span>Wearable app</span></a></li>
+                                                <li><a href="{{ url('service_web_development')}}"><span>Web Development</span></a></li>
+                                                <li><a href="{{ url('service_ecommerce_app')}}"><span>Ecommerce Development</span></a></li>
+                                                <li><a href="{{ url('service_ui_ux')}}"><span>UI-UX Development</span></a></li>
+                                                <li><a href="{{ url('service_prototype')}}"><span>App Prototype</span></a></li>
+                                                <li><a href="{{ url('service_ondemand')}}"><span>On demand</span></a></li>
+                                                <li><a href="{{ url('industry_we_serve')}}"><span>Industry We Serve</span></a></li>
+                                                <li><a href="{{ url('consultancy_service')}}"><span>Consultancy Service</span></a></li>
+                                                <li><a href="{{ url('software_maintainence')}}"><span>Software Maintenance</span></a></li>
                                             </ul>
                                         </li>
-
-                                        <li class="lavel-1 {{ url('assets')}}/ slide--megamenu"><a href="#"><span>Portfolio</span></a></li>
-                                        <li class="lavel-1 {{ url('assets')}}/ slide--megamenu"><a href="#"><span>Elements</span></a></li>
+                                        <li class="lavel-1 {{ url('assets')}}/ slide--megamenu"><a href="#"><span>Estimator</span></a></li>
                                         <li class="lavel-1 {{ url('assets')}}/ slide--megamenu"><a href="#"><span>Blog</span></a></li>
+
+                                          <li class="lavel-1 {{ url('assets')}}/ slide--megamenu">
+                                            <a href="#" class="quote_btn" data-toggle="modal"  data-target="#Quote_model"><span>Request a Quote</span></a></li>
                                     </ul>
                                 </nav>
+
+
                             </div>
                             <!-- Header Right -->
-                            <div class="header-right">
+                            <div class="header-left">
                                 <!-- Start Minicart -->
                                 <div class="mini-cart">
                                     <div id="minicart-trigger" class="minicart-trigger mini-cart-button" data-count="3">
-                                        <button><i class="fas fa-shopping-bag"></i></button>
+                                        <button><i class="fa fa-phone-square fa-2x"></i></button>
                                     </div>
                                     <div class="shopping-cart cart-box">
                                         <div class="shop-inner">
                                             <div class="header">
                                                 <ul class="product-list">
-
-                                                    <!-- Start Single Product -->
-                                                    <li>
-                                                        <div class="thumb">
-                                                            <a href="#">
-                                                                <img src="{{ url('assets')}}/img/product/sm-image/sm-cat1-01.jpg" alt="Multipurpose template">
-                                                            </a>
-                                                        </div>
-                                                        <div class="content">
-                                                            <div class="inner">
-                                                                <h4><a href="#">Bottle with Leather
-                                                                        Grip</a></h4>
-                                                                <div class="quatity">
-                                                                    <span>1 ×</span>
-                                                                    <span>39.00</span>
-                                                                </div>
-                                                            </div>
-                                                            <button class="delete-btn"><i class="fas fa-times"></i></button>
-                                                        </div>
-                                                    </li>
-
-                                                    <!-- Start Single Product -->
-                                                    <li>
-                                                        <div class="thumb">
-                                                            <a href="#">
-                                                                <img src="img/product/sm-image/sm-cat1-02.jpg" alt="Multipurpose template">
-                                                            </a>
-                                                        </div>
-                                                        <div class="content">
-                                                            <div class="inner">
-                                                                <h4><a href="#">Crystal Glass Globe
-                                                                        Desk Lamp</a></h4>
-                                                                <div class="quatity">
-                                                                    <span>1 ×</span>
-                                                                    <span>39.00</span>
-                                                                </div>
-                                                            </div>
-                                                            <button class="delete-btn"><i class="fas fa-times"></i></button>
-                                                        </div>
-                                                    </li>
-
-                                                    <!-- Start Single Product -->
-                                                    <li>
-                                                        <div class="thumb">
-                                                            <a href="#">
-                                                                <img src="img/product/sm-image/sm-cat1-03.jpg" alt="Multipurpose template">
-                                                            </a>
-                                                        </div>
-                                                        <div class="content">
-                                                            <div class="inner">
-                                                                <h4><a href="#">Gold Plated Desk
-                                                                        Lantern Lamp</a></h4>
-                                                                <div class="quatity">
-                                                                    <span>1 ×</span>
-                                                                    <span>39.00</span>
-                                                                </div>
-                                                            </div>
-                                                            <button class="delete-btn brook-transition"><i class="fas fa-times"></i></button>
-                                                        </div>
-                                                    </li>
                                                 </ul>
                                             </div>
-                                            <div class="footer">
-                                                <div class="total">Total: <span>225.00</span></div>
-                                                <a class="cart-btn brook-transition" href="checkout.html">Check out</a>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                                 <!-- End Minicart -->
-                                <!-- Start Popup Search Wrap -->
-                                <div class="popup-search-wrap">
-                                    <a class="btn-search-click" href="#">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                </div>
-                                <!-- End Popup Search Wrap -->
+
                                 <!-- Start Hamberger -->
                                 <div class="manu-hamber popup-mobile-click d-block d-lg-none black-version d-block d-xl-none">
                                     <div>
@@ -195,16 +145,14 @@
                 <div class="mobileheader">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="{{ url('assets')}}/img/logo/brook-black.png" alt="Multipurpose">
+                            <img src="{{ url('assets')}}/img/logo/logo.png" alt="Multipurpose">
                         </a>
                     </div>
                     <a class="mobile-close" href="#"></a>
                 </div>
                 <div class="menu-content">
                     <ul class="menulist object-custom-menu">
-                        <li class="has-mega-menu"><a href="#"><span>Home</span></a>
-
-                        </li>
+                        <li class=""><a href="{{ url('/')}}"><span>Home</span></a></li>
                         <li class="has-mega-menu"><a href="#"><span>Why HST</span></a>
                             <!-- Start Dropdown Menu -->
                             <ul class="object-submenu">
@@ -216,26 +164,29 @@
                               <li><a href="{{ url('ourworks')}}"><span>Our Works</span></a></li>
                             </ul>
                         </li>
-                          <li class="lavel-1 with--drop slide-dropdown"><a href="#"><span>Services</span></a>
-                                <ul class="dropdown__menu">
-                                  <li><a href="{{ url('services')}}"><span>Our Services</span></a></li>
-                                  <li><a href="{{ url('service_mobile_app')}}"><span>Mobile app</span></a></li>
-                                  <li><a href="{{ url('service_android_app')}}"><span>Android app</span></a></li>
-                                </ul>
-                            </li>
 
-
-
-                        <li class="has-mega-menu"><a href="#"><span>Shop</span></a>
-                          <ul class="dropdown__menu">
-                            <li><a href="{{ url('about-us')}}"><span>About Us</span></a></li>
-                            <li><a href="{{ url('our-team')}}"><span>Our Team</span></a></li>
-                            <li><a href="{{ url('process')}}"><span>Our Process</span></a></li>
-                            <li><a href="{{ url('quality_assurance')}}"><span>Quality Assurance</span></a></li>
-                            <li><a href="{{ url('reviews')}}"><span>Reviews</span></a></li>
-                            <li><a href="{{ url('ourworks')}}"><span>Our Works</span></a></li>
-                          </ul>
+                        <li class="has-mega-menu"><a href="#"><span>Services</span></a>
+                            <!-- Start Dropdown Menu -->
+                            <ul class="object-submenu">
+                              <li><a href="{{ url('services')}}"><span>Our Services</span></a></li>
+                              <li><a href="{{ url('service_mobile_app')}}"><span>Mobile app</span></a></li>
+                              <li><a href="{{ url('service_android_app')}}"><span>Android app</span></a></li>
+                              <li><a href="{{ url('service_ios_app')}}"><span>iOS app</span></a></li>
+                              <li><a href="{{ url('service_hybrid_app')}}"><span>Hybrid app</span></a></li>
+                              <li><a href="{{ url('service_wearable_app')}}"><span>Wearable app</span></a></li>
+                              <li><a href="{{ url('service_web_development')}}"><span>Web Development</span></a></li>
+                              <li><a href="{{ url('service_ecommerce_app')}}"><span>Ecommerce Development</span></a></li>
+                              <li><a href="{{ url('service_ui_ux')}}"><span>UI-UX Development</span></a></li>
+                              <li><a href="{{ url('service_prototype')}}"><span>App Prototype</span></a></li>
+                              <li><a href="{{ url('service_ondemand')}}"><span>On demand</span></a></li>
+                              <li><a href="{{ url('industry_we_serve')}}"><span>Industry We Serve</span></a></li>
+                              <li><a href="{{ url('consultancy_service')}}"><span>Consultancy Service</span></a></li>
+                              <li><a href="{{ url('software_maintainence')}}"><span>Software Maintenance</span></a></li>
+                            </ul>
                         </li>
+                          <li class=""><a href="#"><span>Estimator</span></a></li>
+                          <li class=""><a href="#"><span>Blog</span></a></li>
+
 
                     </ul>
                 </div>
@@ -246,7 +197,7 @@
         <!-- Start Toolbar -->
         <div class="demo-option-container">
             <!-- Start Toolbar -->
-            <div class="brook__toolbar">
+            <!-- <div class="brook__toolbar">
                 <div class="inner">
                     <a class="quick-option hint--bounce hint--left hint--black primary-color-hover-important" href="#"
                         aria-label="Quick Options">
@@ -261,10 +212,10 @@
                         <i class="fa fa-shopping-cart"></i>
                     </a>
                 </div>
-            </div>
+            </div> -->
             <!-- End Toolbar -->
             <!-- Start Quick Link -->
-            <div class="demo-option-wrapper">
+            <!-- <div class="demo-option-wrapper">
                 <div class="demo-panel-header">
                     <div class="panel-btn">
                         <a class="brook-btn bk-btn-theme btn-sd-size btn-rounded space-between" href="https://themeforest.net/item/brook-creative-agency-business-html-template/24226512?s_rank=1"><i
@@ -278,126 +229,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="demo-quick-option-list">
-                    <a class="link hint--bounce hint--top hint--dark" href="index-business.html" aria-label="Business">
-                        <img src="img/demo-image/home-business.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-expert.html" aria-label="Expert">
-                        <img src="img/demo-image/home-expert.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-revolutionary.html" aria-label="Revolutionary">
-                        <img src="img/demo-image/home-revolutionary.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-authentic-studio.html" aria-label="Authentic Studio">
-                        <img src="img/demo-image/home-authentic-studio.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-astronomy.html" aria-label="Astronomy">
-                        <img src="img/demo-image/home-astronomy.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-news-bulletin.html" aria-label="News Bulletin">
-                        <img src="img/demo-image/home-news-bulletin.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-digital-broadsheets.html" aria-label="Digital Broadsheets">
-                        <img src="img/demo-image/home-digital-broadsheets.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-creative-agency.html" aria-label="Creative Agency">
-                        <img src="img/demo-image/home-creative-agency.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-digital-agency.html" aria-label="Digital Agency">
-                        <img src="img/demo-image/home-digital-agency.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-vertical-menu.html" aria-label="Vertical Menu">
-                        <img src="img/demo-image/home-vertical-menu.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-design-studio.html" aria-label="Design Studio">
-                        <img src="img/demo-image/home-design-studio.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-creative-portfolio.html" aria-label="Creative Portfolio">
-                        <img src="img/demo-image/home-creative-portfolio.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-freelancer.html" aria-label="Freelancer">
-                        <img src="img/demo-image/home-freelancer.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-vertical-slider-portfolio.html"
-                        aria-label="Vertical Slide Portfolio">
-                        <img src="img/demo-image/home-vertical-slide-portfolio.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-minimal-portfolio.html" aria-label="Minimal Portfolio">
-                        <img src="img/demo-image/home-minimal-portfolio.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-onepage.html" aria-label="Onepage">
-                        <img src="img/demo-image/home-onepage.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-landing.html" aria-label="Landing">
-                        <img src="img/demo-image/home-landing.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-architecture.html" aria-label="Architecture">
-                        <img src="img/demo-image/home-architecture.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-portfolio-fullscreen-type-hover-02.html"
-                        aria-label="Portfolio Fullscreen Type Hover 02">
-                        <img src="img/demo-image/home-hover-type-02.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-minimal-agency.html" aria-label="Minimal Agency">
-                        <img src="img/demo-image/home-minimal-agency.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-start-ups.html" aria-label="Start-ups">
-                        <img src="img/demo-image/home-start-ups.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-presentation.html" aria-label="Presentation">
-                        <img src="img/demo-image/home-presentation.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-blog-metro.html" aria-label="Metro Blog">
-                        <img src="img/demo-image/home-metro-blog.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-portfolio-mesonry-left-vertical-header.html"
-                        aria-label="Portfolio Masonry – Left Vertical Header">
-                        <img src="img/demo-image/home-portfolio-masonry-left-vertical-header.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-masonry-gallery.html" aria-label="Masonry Gallery">
-                        <img src="img/demo-image/home-masonry-gallery.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-home-services-classic.html" aria-label="Service">
-                        <img src="img/demo-image/home-service.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-minimal-metro-grid.html" aria-label="Minimal Metro Grid">
-                        <img src="img/demo-image/home-minimal-metro-grid.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-shop.html" aria-label="Shop">
-                        <img src="img/demo-image/home-shop.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-product-landing.html" aria-label="Product Landing">
-                        <img src="img/demo-image/home-product-landing.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-indie-musician.html" aria-label="Indie Musician">
-                        <img src="img/demo-image/home-indie-musician.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-foodie.html" aria-label="Foodie">
-                        <img src="img/demo-image/home-foodie.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-vertical-slide-gradient-portfolio.html"
-                        aria-label="Vertical Slide Gradient Portfolio">
-                        <img src="img/demo-image/home-vertical-slide-gradient-portfolio.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-portfolio-fullscreen-slider-left-vertical-header.html"
-                        aria-label="Portfolio Fullscreen Slider Left Vertical Header">
-                        <img src="img/demo-image/home-portfolio-fullscreen-slider-left-vertical-header.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-portfolio-fullscreen-type-hover.html"
-                        aria-label="Portfolio Fullscreen Type Hover">
-                        <img src="img/demo-image/home-hover-type.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-portfolio-slide.html" aria-label="Portfolio Slide">
-                        <img src="img/demo-image/home-portfolio-slide.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-photo-slider-gallery.html" aria-label="Photo Slider Gallery">
-                        <img src="img/demo-image/home-photo-slider-gallery.jpg" alt="Multipurpose Template"></a>
-
-                    <a class="link hint--bounce hint--top hint--dark" href="index-blog-grid.html" aria-label="Grid Blog">
-                        <img src="img/demo-image/home-grid-blog.jpg" alt="Multipurpose Template"></a>
-
-                </div>
-            </div>
+            </div> -->
             <!-- End Quick Link -->
         </div>
           @yield('content')
@@ -485,25 +317,136 @@
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-
-
-      <div class="modal-body">
-
+      <div class="modal-body youtube_modal_body">
        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <!-- 16:9 aspect ratio -->
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item"  id="video"  allowscriptaccess="always" allow="autoplay" src="https://www.youtube.com/embed/L7OLY4HCctQ"></iframe>
       </div>
-
-
-
       </div>
-
     </div>
   </div>
 </div>
+
+
+
+<div class="modal fade" id="Quote_model" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header no_padding">
+          <h5 class="modal-title text-center quote_title">Get Quote</h5>
+
+      </div>
+      <div class="modal-body">
+        <div class="row quote_head_title">
+          <p>Not only our apps are reliable but also our words. Tell us about you and your requirements, and we will get back to you within a couple of days with a perfect quote.</p>
+        </div>
+        <div class="row heading_center">
+          <h2>Introduce Yourself</h2>
+        </div>
+        <div class="form-group row ">
+          <div class="col-6">
+              <label  class="col-form-label-md "></label>
+              <div class="input-group">
+                  <input  name="" id="" type="text" class="form-control no_border_bottom " placeholder="Your Name">
+              </div>
+          </div>
+          <div class="col-6">
+              <label  class="col-form-label-md "></label>
+              <div class="input-group">
+                  <input  name="" id="" type="text" class="form-control no_border_bottom " placeholder="Select the country">
+              </div>
+          </div>
+
+          <div class="col-6">
+              <label  class="col-form-label-md "></label>
+              <div class="input-group">
+                  <input  name="" id="" type="text" class="form-control no_border_bottom " placeholder="Your Email ID">
+              </div>
+          </div>
+          <div class="col-6">
+              <label  class="col-form-label-md "></label>
+              <div class="input-group">
+                  <input  name="" id="" type="text" class="form-control no_border_bottom " placeholder="Your Phone Number">
+              </div>
+          </div>
+
+        </div>
+        <div class="row heading_center">
+          <h2>Your Requirements</h2>
+        </div>
+        <div class="form-group row ">
+            <div class="col-12 mb--20">
+            <label  class="col-form-label-md ">Tell us what are you looking for?</label>
+            <div class="row">
+            <div class="col-4">
+              <div class="check-box">
+                  <input type="checkbox" id="">
+                  <label for="">Mobile Application</label>
+              </div>
+              <div class="check-box">
+                  <input type="checkbox" id="" data-shipping="">
+                  <label for="">Web Application</label>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="check-box">
+                  <input type="checkbox" id="">
+                  <label for="">e-Commerce Application</label>
+              </div>
+              <div class="check-box">
+                  <input type="checkbox" id="" data-shipping="">
+                  <label for="">Product Design (UX/UI)</label>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="check-box">
+                  <input type="checkbox" id="">
+                  <label for="">App Prototype</label>
+              </div>
+              <div class="check-box">
+                  <input type="checkbox" id="" data-shipping="">
+                  <label for="">On-demand Application</label>
+              </div>
+            </div>
+              </div>
+            </div>
+
+        </div>
+        <div class="form-group row ">
+          <div class="col-12">
+              <label  class="col-form-label-md "></label>
+              <div class="input-group">
+                  <input  name="" id="" type="text" class="form-control no_border_bottom " placeholder="Give a brief about your project.">
+              </div>
+          </div>
+          <div class="col-6">
+              <label  class="col-form-label-md "></label>
+              <div class="input-group">
+                  <input  name="" id="" type="text" class="form-control no_border_bottom " placeholder="Please mention your budget.">
+              </div>
+          </div>
+          <div class="col-6">
+              <label  class="col-form-label-md "></label>
+              <div class="input-group">
+                  <input  name="" id="" type="text" class="form-control no_border_bottom " placeholder="When do you want to get started?">
+              </div>
+          </div>
+          <div class="col-12">
+            <label  class="col-form-label-md "></label>
+            <center>
+                  <input type="submit" class="btn btn_theme" name="Submit">
+              </center>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
 
       <script src="{{ url('assets')}}/js/plugins.js"></script>
       <script src="{{ url('assets')}}/js/main.js"></script>

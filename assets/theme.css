@@ -1,5 +1,5 @@
 .logo{
-  width:100px;
+  width:auto;
 }
 
 .modal-dialog {
@@ -7,9 +7,45 @@
       margin: 30px auto;
   }
 
-.modal-body {
+.youtube_modal_body {
   position:relative;
   padding:0px;
+}
+.quote_title{
+    width: 100%;
+    background-color: #f8981d;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.no_padding{
+  padding: 0px;
+}
+.quote_head_title{
+  text-align: center;
+  padding: 25px;
+}
+.heading_center h2{
+  text-align: center;
+  width: 100%;
+  color: #f8981d;
+  padding: 10px;
+}
+.btn_theme{
+  background-color: #f8981d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.no_border_bottom{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #bbbaba;
+}
+.contact-form.contact-form--2 input {
+  text-align: left;
 }
 .close {
   position:absolute;

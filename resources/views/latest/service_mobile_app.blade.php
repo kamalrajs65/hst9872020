@@ -28,23 +28,22 @@
                                 <h4 class="heading heading-h4">Newsletter sign-up</h4>
                                 <form action="#">
                                     <div class="row">
-
                                         <div class="col-lg-12">
-                                            <input type="text" placeholder="Your name">
+                                            <input type="text" class="form-control " placeholder="Your name">
+                                        </div>
+                                        <div class="col-lg-12 mt--10">
+                                            <input type="text" class="form-control " placeholder="Your Phone Number">
                                         </div>
 
-                                        <div class="col-lg-12 mt--30">
-                                            <input type="email" placeholder="Your e-mail">
+                                        <div class="col-lg-12 mt--10">
+                                            <input type="email" class="form-control " placeholder="Your Email ID">
                                         </div>
-
-                                        <div class="col-lg-12">
-                                            <div class="form-desc"> Sign up to our newsletter for regular updates and
-                                                more.</div>
+                                        <div class="col-lg-12 mt--10">
+                                            <textarea class="form-control " placeholder="Message"></textarea>
                                         </div>
-                                        <div class="col-lg-12 mt--30">
-                                            <input type="submit" placeholder="Subscribe">
+                                        <div class="col-lg-12 mt--20">
+                                            <input type="submit" name="Save">
                                         </div>
-
                                     </div>
                                 </form>
                             </div>

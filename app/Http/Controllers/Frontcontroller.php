@@ -69,6 +69,33 @@ class Frontcontroller extends Controller
     public function service_wearable_app(){
       return view('latest.wearable_app');
     }
+    public function service_web_development(){
+      return view('latest.service_web_development');
+    }
+
+    public function service_ecommerce_app(){
+      return view('latest.service_ecommerce_app');
+    }
+
+    public function service_ui_ux(){
+      return view('latest.service_ui_ux');
+    }
+    public function service_prototype(){
+      return view('latest.service_prototype');
+    }
+    public function service_ondemand(){
+      return view('latest.service_ondemand');
+    }
+    public function industry_we_serve(){
+      return view('latest.industry_we_serve');
+    }
+    public function consultancy_service(){
+      return view('latest.consultancy_service');
+    }
+    public function software_maintainence(){
+      return view('latest.software_maintainence');
+    }
+
 
 
 
