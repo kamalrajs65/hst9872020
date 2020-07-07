@@ -27,7 +27,7 @@
                                     <div class="hero-content-3 left">
                                         <h3>We're here to level <br> up your online <br> presence.</h3>
                                         <h6>A Creative Agency like no other. </h6>
-                                        <a class="brook-btn btn-sd-size space-between btn-essential btn" href="#">Learn More</a>
+                                        <!-- <a class="brook-btn btn-sd-size space-between btn-essential btn" href="#">Learn More</a> -->
                                         <div class="video-btn-2">
                                             <a class="play__btn video-btn"  data-toggle="modal" data-src="https://www.youtube.com/watch?v=L7OLY4HCctQ" data-target="#myModal">
                                                 <div class="icon-gradient color-pink">
