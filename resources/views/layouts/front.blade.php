@@ -57,7 +57,7 @@
                             <!-- Header Left -->
                             <div class="header-left">
                                 <div class="logo">
-                                    <a href="index.html">
+                                    <a href="{{ url('/')}}">
                                         <img src="{{ url('assets')}}/img/logo/logo.png" alt="Brook Images">
                                     </a>
                                 </div>
@@ -144,7 +144,7 @@
             <div class="inner">
                 <div class="mobileheader">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="{{ url('/')}}">
                             <img src="{{ url('assets')}}/img/logo/logo.png" alt="Multipurpose">
                         </a>
                     </div>
