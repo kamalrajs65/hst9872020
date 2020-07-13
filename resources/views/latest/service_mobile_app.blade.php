@@ -68,9 +68,10 @@
                         <div class="col-lg-4">
                             <div class="what-do mt--40">
                                 <div class="content">
-                                    <h5 class="heading heading-h5 yellow-color-2 wow move-up animate" style="visibility: visible; opacity: 0;">FNative Mobile Applications</h5>
+                                    <h5 class="heading heading-h5 yellow-color-2 wow move-up animate" style="visibility: visible; opacity: 0;">Native Mobile Applications</h5>
                                     <div class="bkseparator--20"></div>
                                     <p class="bk_pra wow move-up animate" style="visibility: visible; opacity: 0;">We build applications specifically for Android and iOS platforms using their own development languages and tools.</p>
+                                    <a class="brook-btn  with-no-shadow btn-read-more wow move-up animate" href="#">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +80,8 @@
                                 <div class="content">
                                     <h5 class="heading heading-h5 yellow-color-2 wow move-up animate" style="visibility: visible; opacity: 0;">Hybrid Mobile Applications</h5>
                                     <div class="bkseparator--20"></div>
-                                    <p class="bk_pra wow move-up animate" style="visibility: visible; opacity: 0;">We interlace web and native technologies to create hybrid mobile applications.</p>
+                                    <p class="bk_pra wow move-up animate" style="visibility: visible; opacity: 0;">We interlace web and native technologies to create hybrid mobile applications.</p><br>
+                                    <a class="brook-btn  with-no-shadow btn-read-more wow move-up animate" href="{{ url('service_hybrid_app')}}">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -89,6 +91,7 @@
                                     <h5 class="heading heading-h5 yellow-color-2 wow move-up animate" style="visibility: visible; opacity: 0;">Wearable Technology</h5>
                                     <div class="bkseparator--20"></div>
                                     <p class="bk_pra wow move-up animate" style="visibility: visible; opacity: 0;">We build mobile applications exclusively for wearables that analyze and transmit information about the wearer's body.</p>
+                                    <a class="brook-btn  with-no-shadow btn-read-more wow move-up animate" href="{{ url('service_wearable_app')}}">Read more</a>
                                 </div>
                             </div>
                         </div>

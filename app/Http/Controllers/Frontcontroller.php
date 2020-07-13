@@ -47,6 +47,9 @@ class Frontcontroller extends Controller
     public function heyla_work(){
       return view('latest.heyla_work');
     }
+    public function ener_you_work(){
+      return view('latest.ener_you_work');
+    }
 
     public function services(){
       return view('latest.services');

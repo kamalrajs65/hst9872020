@@ -50,7 +50,7 @@
                           <div class="blog-grid-minimal" style="background-image: url(assets/img/services/appdevelopment_bg.jpg)">
                               <div class="post-content">
                                 <p><img src="{{ url('assets/img/services/app_develop.png')}}"></p>
-                                  <h5 class="heading"><a href="#">Mobile Applications</a></h5>
+                                  <h5 class="heading"><a href="{{ url('service_mobile_app')}}">Mobile Applications</a></h5>
                                   <div class="post-meta">
                                       <div class="post-date">We build apps that are native (Android and iOS) as well as hybrid, for mobile as well as wearables.</div>
                                   </div>
@@ -64,7 +64,7 @@
                         <div class="blog-grid-minimal" style="background-image: url(assets/img/services/webdevelopment_bg.jpg)">
                             <div class="post-content">
                               <p><img src="{{ url('assets/img/services/web_develop.png')}}"></p>
-                                <h5 class="heading"><a href="#">Web Applications</a></h5>
+                                <h5 class="heading"><a href="{{ url('service_web_development')}}">Web Applications</a></h5>
                                 <div class="post-meta">
                                     <div class="post-date">Whether it's for CRM or ERP, cloud or workflow management, our web applications are robust and hi-tech.</div>
                                 </div>
@@ -78,7 +78,7 @@
                         <div class="blog-grid-minimal" style="background-image: url(assets/img/services/ecommerce_bg.jpg)">
                             <div class="post-content">
                               <p><img src="{{ url('assets/img/services/ecommerce.png')}}"></p>
-                                <h5 class="heading"><a href="#">E-commerce Solutions</a></h5>
+                                <h5 class="heading"><a href="{{ url('service_ecommerce_app')}}">E-commerce Solutions</a></h5>
                                 <div class="post-meta">
                                     <div class="post-date">We help businesses evolve from brick-and-mortar to digital.</div>
                                 </div>
@@ -92,7 +92,7 @@
                         <div class="blog-grid-minimal" style="background-image: url(assets/img/services/ui_ux_bg.jpg)">
                             <div class="post-content">
                               <p><img src="{{ url('assets/img/services/ui_ux.png')}}"></p>
-                                <h5 class="heading"><a href="#">Product Design (UI/UX)</a></h5>
+                                <h5 class="heading"><a href="{{ url('service_ui_ux')}}">Product Design (UI/UX)</a></h5>
                                 <div class="post-meta">
                                     <div class="post-date">We care about the way you feel while you're using an app, so we design the way it interact with you.</div>
                                 </div>
@@ -106,7 +106,7 @@
                         <div class="blog-grid-minimal" style="background-image: url(assets/img/services/prototype_bg.jpg)">
                             <div class="post-content">
                               <p><img src="{{ url('assets/img/services/prototype.png')}}"></p>
-                                <h5 class="heading"><a href="#">App Prototype & Strategy</a></h5>
+                                <h5 class="heading"><a href="{{ url('service_prototype')}}">App Prototype & Strategy</a></h5>
                                 <div class="post-meta">
                                     <div class="post-date">We help you with the first original model of your app upon which all the other elements are built.</div>
                                 </div>
@@ -120,7 +120,7 @@
                         <div class="blog-grid-minimal" style="background-image: url(assets/img/services/ondemand_bg.jpg)">
                             <div class="post-content">
                               <p><img src="{{ url('assets/img/services/ondemand.png')}}"></p>
-                                <h5 class="heading"><a href="#">On-demand Apps</a></h5>
+                                <h5 class="heading"><a href="{{ url('service_ondemand')}}">On-demand Apps</a></h5>
                                 <div class="post-meta">
                                     <div class="post-date">We already have the solutions for your needs. All you need to do is cherry-pick them.</div>
                                 </div>
@@ -136,7 +136,7 @@
                           <div class="container">
                               <div class="row">
                                   <div class="col-lg-12">
-                                      <div class="brook-section-title text-center mb--45">                                        
+                                      <div class="brook-section-title text-center mb--45">
                                           <h5 class="ptb--40">Check out our recent works.</h5>
                                       </div>
                                   </div>
@@ -147,7 +147,7 @@
                                   <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                       <div class="portfolio with-caption">
                                           <div class="thumb video-with-thumb">
-                                              <a href="#">
+                                              <a href="{{ url('ensyfi_work')}}">
                                                   <img src="{{ url('assets/img/works/ensyfi_cover.jpg')}}" alt="portfolio images">
                                               </a>
 
@@ -156,7 +156,7 @@
                                           </div>
                                           <div class="caption-bottom text-center">
                                               <div class="info">
-                                                  <h5 class="heading heading-h5"><a href="#">The Language of
+                                                  <h5 class="heading heading-h5"><a href="{{ url('ensyfi_work')}}">The Language of
                                                           Designs</a></h5>
                                                   <p class="bk_pra">Design</p>
                                               </div>
@@ -169,13 +169,13 @@
                                   <div class="col-lg-4 col-md-6 col-sm-6 col-12 move-up wow animate" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; opacity: 0;">
                                       <div class="portfolio with-caption mt_mobile--30">
                                           <div class="thumb">
-                                              <a href="#">
+                                              <a href="{{ url('heyla_work')}}">
                                                 <img src="{{ url('assets/img/works/heyla_cover.jpg')}}" alt="portfolio images">
                                               </a>
                                           </div>
                                           <div class="caption-bottom text-center">
                                               <div class="info">
-                                                  <h5 class="heading heading-h5"><a href="#">The Language of
+                                                  <h5 class="heading heading-h5"><a href="{{ url('heyla_work')}}">The Language of
                                                           Designs</a></h5>
                                                   <p class="bk_pra">Design</p>
                                               </div>
@@ -188,13 +188,13 @@
                                   <div class="col-lg-4 col-md-6 col-sm-6 col-12 move-up wow animate" data-wow-delay=".16s" style="visibility: visible; animation-delay: 0.16s; opacity: 0;">
                                       <div class="portfolio with-caption mt_sm--30 mt_md--30">
                                           <div class="thumb">
-                                              <a href="#">
+                                              <a href="{{ url('ener_you_work')}}">
                                                 <img src="{{ url('assets/img/works/ener_you_cover.jpg')}}" alt="portfolio images">
                                               </a>
                                           </div>
                                           <div class="caption-bottom text-center">
                                               <div class="info">
-                                                  <h5 class="heading heading-h5"><a href="#">Gifts for
+                                                  <h5 class="heading heading-h5"><a href="{{ url('ener_you_work')}}">Gifts for
                                                           Photography Lovers</a></h5>
                                                   <p class="bk_pra">Digital</p>
                                               </div>

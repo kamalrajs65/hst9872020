@@ -25,6 +25,7 @@ Route::get('reviews','Frontcontroller@reviews');
 Route::get('ourworks','Frontcontroller@ourworks');
 Route::get('ensyfi_work','Frontcontroller@ensyfi_work');
 Route::get('heyla_work','Frontcontroller@heyla_work');
+Route::get('ener_you_work','Frontcontroller@ener_you_work');
 Route::get('services','Frontcontroller@services');
 Route::get('service_mobile_app','Frontcontroller@service_mobile_app');
 Route::get('service_android_app','Frontcontroller@service_android_app');

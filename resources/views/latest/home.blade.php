@@ -72,9 +72,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="brook-section-title text-center mb--45">
-                            <h6 class="heading-13 theme-color text-uppercase fw-500">Our case studies</h6>
+                            <h6 class="heading-13 theme-color text-uppercase fw-500">Hello There</h6>
                             <div class="bkseparator--25"></div>
-                            <h2 class="heading-40 fw-200">Our projects make us proud</h2>
+                            <h2 class="heading-40 fw-200">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</h2>
+                          
                         </div>
                     </div>
                 </div>

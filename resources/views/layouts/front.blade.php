@@ -77,8 +77,8 @@
                                                 <li><a href="{{ url('ourworks')}}"><span>Our Works</span></a></li>
                                             </ul>
                                         </li>
-                                        <li class="lavel-1 with--drop slide-dropdown"><a href="#"><span>Services</span></a>
-                                            <ul class="dropdown__menu">
+                                        <li class="lavel-1 "><a href="{{ url('services')}}"><span>Services</span></a>
+                                            <!-- <ul class="dropdown__menu">
                                                 <li><a href="{{ url('services')}}"><span>Our Services</span></a></li>
                                                 <li><a href="{{ url('service_mobile_app')}}"><span>Mobile app</span></a></li>
                                                 <li><a href="{{ url('service_android_app')}}"><span>Android app</span></a></li>
@@ -93,7 +93,7 @@
                                                 <li><a href="{{ url('industry_we_serve')}}"><span>Industry We Serve</span></a></li>
                                                 <li><a href="{{ url('consultancy_service')}}"><span>Consultancy Service</span></a></li>
                                                 <li><a href="{{ url('software_maintainence')}}"><span>Software Maintenance</span></a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <li class="lavel-1 {{ url('assets')}}/ slide--megamenu"><a href="#"><span>Estimator</span></a></li>
                                         <li class="lavel-1 {{ url('assets')}}/ slide--megamenu"><a href="#"><span>Blog</span></a></li>
@@ -165,7 +165,7 @@
                             </ul>
                         </li>
 
-                        <li class="has-mega-menu"><a href="#"><span>Services</span></a>
+                        <li class="has-mega-menu"><a href="{{ url('services')}}"><span>Services</span></a>
                             <!-- Start Dropdown Menu -->
                             <ul class="object-submenu">
                               <li><a href="{{ url('services')}}"><span>Our Services</span></a></li>
